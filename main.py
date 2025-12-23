@@ -13,4 +13,4 @@ if not re.match(LOG_EXTENSION_REGEX, file_path):
     print("Please enter a file that has the extentions .log or .txt, as they are the only ones that are valid Minecraft log files")
 else:
     file = open(file_path, "r",errors='ignore')
-    loader = basicInfoGatherer.checkGameData(file)
+    loader = basicInfoGatherer.checkGameVersions(file)

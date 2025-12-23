@@ -4,10 +4,11 @@ from io import TextIOWrapper
 NEOFORGE_LOADER_DETECT_REGEX = r".*\[main\/INFO\] \[cpw\.mods\.modlauncher\.Launcher\/MODLAUNCHER\]: .* --fml\.neoForgeVersion"
 
 NEOFORGE_LOADER_VERSION_FLAG_EXTRACT_REGEX = r".*\[main\/INFO\] \[cpw\.mods\.modlauncher\.Launcher\/MODLAUNCHER\]: .* --fml\.neoForgeVersion, ([0-9]{2}\.[0-9]{1,2}\.[0-9]{1,3}), "
-NEOFORGE_REG_VERSION_FLAG_EXTRACT_REGEX = r".*\[main\/INFO\]: .* --version, ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}|neoforge-[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})" #gets the version flag. this is either the mc version or the loader version
+NEOFORGE_MC_VERSION_EXTRACT_REGEX = r"([0-9]{1,2}\.[0-9]{1,2})\.[0-9]{1,4}" #extracts the minecraft version from the provided neoforge version
+NEOFORGE_JAVA_VERSION_LINE_DETECT_REGEX = r".*\[main\/INFO\].*: ModLauncher.+ java version "
+NEOFORGE_JAVA_VERSION_EXTRACT_REGEX= r".*\[main\/INFO\].*: ModLauncher.+ java version ([0-9]{1,2})\.[0-9]{1,3}\.[0-9]{1,3} by .*"
 
-
-def checkGameData(file:TextIOWrapper) -> str:
+def checkGameVersions(file:TextIOWrapper) -> str:
     loader = ""
     loaderVer = ""
     minecraftVer = ""
@@ -18,11 +19,20 @@ def checkGameData(file:TextIOWrapper) -> str:
             if re.match(NEOFORGE_LOADER_DETECT_REGEX,line):
                 loader = "Neoforge"
 
-                loaderVer = re.findall(NEOFORGE_LOADER_VERSION_FLAG_EXTRACT_REGEX, line) #detect neoforge loader version
-                print("Detected loader is Neoforge, version " +str(loaderVer[0]))
+                loaderVer = re.findall(NEOFORGE_LOADER_VERSION_FLAG_EXTRACT_REGEX, line)[0] #detect neoforge loader version
+                print("Detected loader is Neoforge, version " +str(loaderVer))
 
-                versionFlagData = re.match(NEOFORGE_REG_VERSION_FLAG_EXTRACT_REGEX, line)
-                if versionFlagData[0]
+                minecraftVer = re.findall(NEOFORGE_MC_VERSION_EXTRACT_REGEX,loaderVer)[0]
+                minecraftVer = "1." + minecraftVer
+                print("Minecraft version is " + str(minecraftVer))
 
-    gameData = {"loader":loader, "loaderVersion":loaderVer, "minecraftVersion":minecraftVer,"javaVersion":javaVer}
-    return gameData
+        if i < 5:
+            #run extra info gathering for neoforge
+            if loader == "Neoforge":
+                if re.match(NEOFORGE_JAVA_VERSION_LINE_DETECT_REGEX,line):
+                    javaVer = re.findall(NEOFORGE_JAVA_VERSION_EXTRACT_REGEX, line)[0]
+                    print("Running Major Java version " +str(javaVer))
+
+
+    gameVersions = {"loader":loader, "loaderVersion":loaderVer, "minecraftVersion":minecraftVer,"javaVersion":javaVer}
+    return gameVersions
