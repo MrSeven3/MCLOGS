@@ -18,6 +18,12 @@ QUILT_LOADER_DETECT_REGEX = r".* \[main\/INFO\]: Loading Minecraft [0-9]\.[0-9]{
 QUILT_LOADER_VERSION_EXTRACT_REGEX = r".* \[main\/INFO\]: Loading Minecraft [0-9]\.[0-9]{1,2}\.[0-9]{1,2} with Quilt Loader ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}).*"
 QUILT_MC_VERSION_EXTRACT_REGEX = r".* \[main\/INFO\]: Loading Minecraft ([0-9]\.[0-9]{1,2}\.[0-9]{1,2}) with Quilt Loader [0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}.*"
 
+
+FORGE_LOADER_DETECT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.forgeVersion, [0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}"
+
+FORGE_LOADER_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.forgeVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
+FORGE_MC_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.mcVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
+
 def checkGameVersions(file:TextIOWrapper) -> str:
     loader = ""
     loaderVer = ""
@@ -33,13 +39,14 @@ def checkGameVersions(file:TextIOWrapper) -> str:
                 minecraftVer = "1." + minecraftVer
                 print("Minecraft version is " + str(minecraftVer))
                 break
+
             elif re.match(FABRIC_LOADER_DETECT_REGEX,line) and i == 0: #fabric loader detection
                 loader = "Fabric"
                 loaderVer = re.findall(FABRIC_LOADER_VERSION_EXTRACT_REGEX,line)[0]
                 print("Loader is Fabric version " + str(loaderVer))
 
                 minecraftVer = re.findall(FABRIC_MC_VERSION_EXTRACT_REGEX,line)[0]
-                print("Minecraft is version " + minecraftVer)
+                print("Minecraft is version " + str(minecraftVer))
                 break
 
             elif re.match(QUILT_LOADER_DETECT_REGEX,line) and i == 0: #quilt loader detection
@@ -48,8 +55,17 @@ def checkGameVersions(file:TextIOWrapper) -> str:
                 print("Loader is Quilt version " + str(loaderVer))
 
                 minecraftVer = re.findall(QUILT_MC_VERSION_EXTRACT_REGEX,line)[0]
-                print("Minecraft is version " + minecraftVer)
+                print("Minecraft is version " + str(minecraftVer))
                 break
+
+            elif re.match(FORGE_LOADER_DETECT_REGEX,line) and i == 0: #forge loader detection TODO: make this reliable, it may not always detect forge
+                loader = "Forge"
+                loaderVer = re.findall(FORGE_LOADER_VERSION_EXTRACT_REGEX,line)[0]
+                print("Loader is Forge version " + str(loaderVer))
+
+                minecraftVer = re.findall(FORGE_MC_VERSION_EXTRACT_REGEX,line)[0]
+                print("Minecraft is version " + str(minecraftVer))
 
     gameVersions = {"loader":loader, "loaderVersion":loaderVer, "minecraftVersion":minecraftVer}
     return gameVersions
+
