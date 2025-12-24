@@ -132,12 +132,12 @@ def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log f
 
 class TestLatestLog:
     def test_fabric_latest(self):
-        file = open("latest_fabric_example.log", "r", errors='ignore')
+        file = open("examples/latest_fabric_example.log", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("latest_fabric_example.log", "r", errors='ignore')
+            file = open("examples/latest_fabric_example.log", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -145,7 +145,7 @@ class TestLatestLog:
         else:
 
             file.close()
-            file = open("latest_fabric_example.log", "r", errors='ignore')
+            file = open("examples/latest_fabric_example.log", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -156,12 +156,12 @@ class TestLatestLog:
         assert data['isCrashReport'] == False
         
     def test_quilt_latest(self):
-        file = open("latest_quilt_example.log", "r", errors='ignore')
+        file = open("examples/latest_quilt_example.log", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("latest_quilt_example.log", "r", errors='ignore')
+            file = open("examples/latest_quilt_example.log", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -169,7 +169,7 @@ class TestLatestLog:
         else:
 
             file.close()
-            file = open("latest_quilt_example.log", "r", errors='ignore')
+            file = open("examples/latest_quilt_example.log", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -180,12 +180,12 @@ class TestLatestLog:
         assert data['isCrashReport'] == False
 
     def test_neoforge_latest(self):
-        file = open("latest_neoforge_example.log", "r", errors='ignore')
+        file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("latest_neoforge_example.log", "r", errors='ignore')
+            file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -193,7 +193,7 @@ class TestLatestLog:
         else:
 
             file.close()
-            file = open("latest_neoforge_example.log", "r", errors='ignore')
+            file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -204,12 +204,12 @@ class TestLatestLog:
         assert data['isCrashReport'] == False
 
     def test_forge_latest(self):
-        file = open("latest_forge_example.log", "r", errors='ignore')
+        file = open("examples/latest_forge_example.log", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("latest_forge_example.log", "r", errors='ignore')
+            file = open("examples/latest_forge_example.log", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -217,7 +217,7 @@ class TestLatestLog:
         else:
 
             file.close()
-            file = open("latest_forge_example.log", "r", errors='ignore')
+            file = open("examples/latest_forge_example.log", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -228,12 +228,12 @@ class TestLatestLog:
         assert data['isCrashReport'] == False
 class TestCrashLog:
     def test_fabric_crash(self):
-        file = open("fabric_example_crash_report.txt", "r", errors='ignore')
+        file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("fabric_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -241,7 +241,7 @@ class TestCrashLog:
         else:
 
             file.close()
-            file = open("fabric_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -252,12 +252,12 @@ class TestCrashLog:
         assert data['isCrashReport'] == True
     
     def test_quilt_crash(self):
-        file = open("quilt_example_crash_report.txt", "r", errors='ignore')
+        file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("quilt_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -265,7 +265,7 @@ class TestCrashLog:
         else:
 
             file.close()
-            file = open("quilt_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -276,12 +276,12 @@ class TestCrashLog:
         assert data['isCrashReport'] == True
 
     def test_neoforge_crash(self):
-        file = open("neoforge_example_crash_report.txt", "r", errors='ignore')
+        file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("neoforge_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -289,7 +289,7 @@ class TestCrashLog:
         else:
 
             file.close()
-            file = open("neoforge_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
@@ -300,12 +300,12 @@ class TestCrashLog:
         assert data['isCrashReport'] == True
 
     def test_forge_crash(self):
-        file = open("forge_example_crash_report.txt", "r", errors='ignore')
+        file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
         if isCrashReport(file):
             file.close()
-            file = open("forge_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
 
             data = crashReportBasicInfoGatherer(file)
             print("Gathered basic data:")
@@ -313,7 +313,7 @@ class TestCrashLog:
         else:
 
             file.close()
-            file = open("forge_example_crash_report.txt", "r", errors='ignore')
+            file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
 
             data = checkGameVersions(file)
             print("Gathered basic data:")
