@@ -2,7 +2,7 @@ import re
 from io import TextIOWrapper
 
 def isCrashReport(file:TextIOWrapper) -> bool: #checks if the provided file is a crash report or not
-    CRASH_REPORT_DETECT_REGEX = r"-+"
+    CRASH_REPORT_DETECT_REGEX = r"-+|=+"
 
     for i, line in enumerate(file):
         if i == 0 and re.match(CRASH_REPORT_DETECT_REGEX,line):
@@ -20,27 +20,33 @@ def crashReportBasicInfoGatherer(file:TextIOWrapper):
     FABRIC_LOADER_VERSION_EXTRACT_REGEX = r"\s*fabricloader: Fabric Loader ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
     FABRIC_MC_VERSION_EXTRACT_REGEX = r"\s*minecraft: Minecraft ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
 
+    NEOFORGE_LOADER_DETECT_REGEX = r"\s*neoforge-[0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4}-.*\.jar\s*\|NeoForge\s*\|neoforge\s*\|[0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4}\s*\|Manifest.*"
+    NEOFORGE_LOADER_VERSION_EXTRACT_REGEX = r"\s*neoforge-([0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4})-.*\.jar\s*\|NeoForge\s*\|neoforge\s*\|[0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4}\s*\|Manifest.*"
+    NEOFORGE_MC_VERSION_EXTRACT_REGEX = r"([0-9]{1,2}\.[0-9]{1,3})\.[0-9]{1,4}"  # extracts the minecraft version from the provided neoforge version
 
     loader = ""
     loaderVer = ""
     minecraftVer = ""
     for i,line in enumerate(file):
-        if i == 0 and re.match(QUILT_LOADER_DETECT_REGEX, line):
+        if i < 200 and re.match(QUILT_LOADER_DETECT_REGEX, line):# quilt detection
             loader = "Quilt"
-        if loader == "Quilt":
+        if loader == "Quilt": #extra quilt data gathering
             if re.match(QUILT_MC_VERSION_EXTRACT_REGEX,line):
                 minecraftVer = re.findall(QUILT_MC_VERSION_EXTRACT_REGEX,line)[0]
             if re.match(QUILT_LOADER_VERSION_EXTRACT_REGEX,line):
                 loaderVer = re.findall(QUILT_LOADER_VERSION_EXTRACT_REGEX,line)[0]
 
-
-        if re.match(FABRIC_LOADER_DETECT_REGEX,line):
+        if re.match(FABRIC_LOADER_DETECT_REGEX,line): #fabric detection
             loader = "Fabric"
             loaderVer = re.findall(FABRIC_LOADER_VERSION_EXTRACT_REGEX,line)[0]
-        if loader == "Fabric" and re.match(FABRIC_MC_VERSION_EXTRACT_REGEX,line):
+        if loader == "Fabric" and re.match(FABRIC_MC_VERSION_EXTRACT_REGEX,line): #extra fabric data gathering
             minecraftVer = re.findall(FABRIC_MC_VERSION_EXTRACT_REGEX,line)[0]
 
-        
+        if re.match(NEOFORGE_LOADER_DETECT_REGEX,line):#neoforge detection
+            loader = "NeoForge"
+            loaderVer = re.findall(NEOFORGE_LOADER_VERSION_EXTRACT_REGEX,line)[0] #get the neoforge version from the modlist
+            minecraftVer = "1." + re.findall(NEOFORGE_MC_VERSION_EXTRACT_REGEX,loaderVer)[0] # get the minecraft version from the neoforge version
+
     if loader == '':
         print("It appears you are playing vanilla, or you are using an unsupported modloader. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
         loader = "Vanilla"
