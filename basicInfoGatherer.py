@@ -1,17 +1,20 @@
 import re
-from io import TextIOWrapper
 
-def isCrashReport(file:TextIOWrapper) -> bool: #checks if the provided file is a crash report or not
+def isCrashReport(file_path:str) -> bool: #checks if the provided file is a crash report or not
     CRASH_REPORT_DETECT_REGEX = r"-+|=+"
-
+    file = open(file_path, "r", errors='ignore')
     for i, line in enumerate(file):
         if i == 0 and re.match(CRASH_REPORT_DETECT_REGEX,line):
+            file.close()
             return True
         else:
+            file.close()
             return False
+    file.close()
     return False
 
-def crashReportBasicInfoGatherer(file:TextIOWrapper):
+
+def crashReportBasicInfoGatherer(file_path:str):
     QUILT_LOADER_DETECT_REGEX = r"---- Quilt Loader: .* ----"
     QUILT_LOADER_VERSION_EXTRACT_REGEX = r"\| Quilt Loader\s*\| quilt_loader\s*\| ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})\s*.*"
     QUILT_MC_VERSION_EXTRACT_REGEX = r"\| Minecraft\s*\| minecraft\s*\| ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})\s*.*"
@@ -27,6 +30,8 @@ def crashReportBasicInfoGatherer(file:TextIOWrapper):
     FORGE_LOADER_DETECT_REGEX = r"\s*forge.*\.jar\s*\|Forge\s*\|forge\s*\|[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}\s*\|.*"
     FORGE_LOADER_VERSION_EXTRACT_REGEX = r"\s*forge.*\.jar\s*\|Forge\s*\|forge\s*\|([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})\s*\|.*"
     FORGE_MC_VERSION_EXTRACT_REGEX = r"\s*client-[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}-[0-9]*\.*[0-9]*.*\.jar\s*\|Minecraft\s*\|minecraft\s*\|([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}).*"
+
+    file = open(file_path, "r", errors='ignore')
 
     loader = ""
     loaderVer = ""
@@ -57,14 +62,14 @@ def crashReportBasicInfoGatherer(file:TextIOWrapper):
         if minecraftVer == "" and re.match(FORGE_MC_VERSION_EXTRACT_REGEX,line):
             minecraftVer = re.findall(FORGE_MC_VERSION_EXTRACT_REGEX,line)[0]
 
-
+    file.close()
     if loader == '':
         print("It appears you are playing vanilla, or you are using an unsupported modloader. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
         loader = "Vanilla"
     gameVersions = {"loader": loader, "loaderVersion": loaderVer, "minecraftVersion": minecraftVer,"isCrashReport":True}
     return gameVersions
 
-def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log file, including modloader, modloader version, and minecraft version
+def checkGameVersions(file_path:str): #gets all basic versions from a log file, including modloader, modloader version, and minecraft version
     NEOFORGE_LOADER_DETECT_REGEX = r"\t{2}NeoForge.*"
     NEOFORGE_LOADER_VERSION_EXTRACT_REGEX = r"\t{2}NeoForge ([0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4}).*"
     NEOFORGE_MC_VERSION_EXTRACT_REGEX = r"([0-9]{1,2}\.[0-9]{1,3})\.[0-9]{1,4}"  # extracts the minecraft version from the provided neoforge version
@@ -80,6 +85,8 @@ def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log f
     FORGE_LOADER_DETECT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.forgeVersion, [0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}"
     FORGE_LOADER_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.forgeVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
     FORGE_MC_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.mcVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
+
+    file = open(file_path, "r", errors='ignore')
 
     loader = ""
     loaderVer = ""
@@ -121,7 +128,7 @@ def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log f
 
                 minecraftVer = re.findall(FORGE_MC_VERSION_EXTRACT_REGEX,line)[0]
                 #print("Minecraft is version " + str(minecraftVer))
-
+    file.close()
     if loader == '':
         print("It appears you are playing vanilla, or you are using an unsupported modloader. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
         print("It is also possible that you are using Forge, which does not have a consistent detection method in regular log files.")
@@ -132,193 +139,146 @@ def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log f
 
 class TestLatestLog:
     def test_fabric_latest(self):
-        file = open("examples/latest_fabric_example.log", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/latest_fabric_example.log", "r", errors='ignore')
+        if isCrashReport("examples/latest_fabric_example.log"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/latest_fabric_example.log")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/latest_fabric_example.log", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/latest_fabric_example.log")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Fabric"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == False
         
     def test_quilt_latest(self):
-        file = open("examples/latest_quilt_example.log", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/latest_quilt_example.log", "r", errors='ignore')
+        if isCrashReport("examples/latest_quilt_example.log"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/latest_quilt_example.log")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/latest_quilt_example.log", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/latest_quilt_example.log")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Quilt"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == False
 
     def test_neoforge_latest(self):
-        file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
+        if isCrashReport("examples/latest_neoforge_example.log"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/latest_neoforge_example.log")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/latest_neoforge_example.log", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/latest_neoforge_example.log")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "NeoForge"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == False
 
     def test_forge_latest(self):
-        file = open("examples/latest_forge_example.log", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/latest_forge_example.log", "r", errors='ignore')
+        if isCrashReport("examples/latest_forge_example.log"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/latest_forge_example.log")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/latest_forge_example.log", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/latest_forge_example.log")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Forge"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == False
 class TestCrashLog:
     def test_fabric_crash(self):
-        file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
+        if isCrashReport("examples/fabric_example_crash_report.txt"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/fabric_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/fabric_example_crash_report.txt", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/fabric_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Fabric"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == True
     
     def test_quilt_crash(self):
-        file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
+        if isCrashReport("examples/quilt_example_crash_report.txt"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/quilt_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/quilt_example_crash_report.txt", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/quilt_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Quilt"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == True
 
     def test_neoforge_crash(self):
-        file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
+        if isCrashReport("examples/neoforge_example_crash_report.txt"):
 
-            data = crashReportBasicInfoGatherer(file)
+            data = crashReportBasicInfoGatherer("examples/neoforge_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/neoforge_example_crash_report.txt", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/neoforge_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "NeoForge"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == True
 
     def test_forge_crash(self):
-        file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
         data = {}
 
-        if isCrashReport(file):
-            file.close()
-            file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
+        if isCrashReport("examples/forge_example_crash_report.txt"):
 
-            data = crashReportBasicInfoGatherer(file)
+
+            data = crashReportBasicInfoGatherer("examples/forge_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
         else:
 
-            file.close()
-            file = open("examples/forge_example_crash_report.txt", "r", errors='ignore')
-
-            data = checkGameVersions(file)
+            data = checkGameVersions("examples/forge_example_crash_report.txt")
             print("Gathered basic data:")
             print(str(data))
-        assert data['loader'] != ""
+        assert data['loader'] == "Forge"
         assert data['loaderVersion'] != ""
         assert data['minecraftVersion'] != ""
         assert data['isCrashReport'] == True

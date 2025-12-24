@@ -16,29 +16,21 @@ if not os.path.exists(file_path):
     time.sleep(3)
     sys.exit(1)
 
+basicData = {}
 
 if not re.match(LOG_EXTENSION_REGEX, file_path):
     print("Please enter a file that has the extentions .log or .txt, as they are the only ones that are valid Minecraft log files")
     time.sleep(3)
     sys.exit(1)
 else:
-    file = open(file_path, "r",errors='ignore')
-    data = []
     isCrashReport = False
-    if basicInfoGatherer.isCrashReport(file):
+    if basicInfoGatherer.isCrashReport(file_path):
         isCrashReport = True
 
-        file.close()
-        file = open(file_path, "r", errors='ignore')
-
-        data = basicInfoGatherer.crashReportBasicInfoGatherer(file)
+        basicData = basicInfoGatherer.crashReportBasicInfoGatherer(file_path)
         print("Gathered basic data:")
-        print(str(data))
+        print(str(basicData))
     else:
-
-        file.close()
-        file = open(file_path, "r", errors='ignore')
-
-        data = basicInfoGatherer.checkGameVersions(file)
+        basicData = basicInfoGatherer.checkGameVersions(file_path)
         print("Gathered basic data:")
-        print(str(data))
+        print(str(basicData))
