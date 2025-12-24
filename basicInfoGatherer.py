@@ -16,9 +16,9 @@ def crashReportBasicInfoGatherer(file:TextIOWrapper):
     QUILT_LOADER_VERSION_EXTRACT_REGEX = r"\| Quilt Loader\s*\| quilt_loader\s*\| ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})\s*.*"
     QUILT_MC_VERSION_EXTRACT_REGEX = r"\| Minecraft\s*\| minecraft\s*\| ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})\s*.*"
 
-    FABRIC_LOADER_DETECT_REGEX = r"\sfabricloader: Fabric Loader [0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}"
-    FABRIC_LOADER_VERSION_EXTRACT_REGEX = r"\sfabricloader: Fabric Loader ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
-    FABRIC_MC_VERSION_EXTRACT_REGEX = r"\sminecraft: Minecraft ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
+    FABRIC_LOADER_DETECT_REGEX = r"\s*fabricloader: Fabric Loader [0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}"
+    FABRIC_LOADER_VERSION_EXTRACT_REGEX = r"\s*fabricloader: Fabric Loader ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
+    FABRIC_MC_VERSION_EXTRACT_REGEX = r"\s*minecraft: Minecraft ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
 
 
     loader = ""
@@ -33,11 +33,17 @@ def crashReportBasicInfoGatherer(file:TextIOWrapper):
             if re.match(QUILT_LOADER_VERSION_EXTRACT_REGEX,line):
                 loaderVer = re.findall(QUILT_LOADER_VERSION_EXTRACT_REGEX,line)[0]
 
+
         if re.match(FABRIC_LOADER_DETECT_REGEX,line):
             loader = "Fabric"
             loaderVer = re.findall(FABRIC_LOADER_VERSION_EXTRACT_REGEX,line)[0]
+        if loader == "Fabric" and re.match(FABRIC_MC_VERSION_EXTRACT_REGEX,line):
+            minecraftVer = re.findall(FABRIC_MC_VERSION_EXTRACT_REGEX,line)[0]
 
-
+        
+    if loader == '':
+        print("It appears you are playing vanilla, or you are using an unsupported modloader. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
+        loader = "Vanilla"
     gameVersions = {"loader": loader, "loaderVersion": loaderVer, "minecraftVersion": minecraftVer,"isCrashReport":True}
     return gameVersions
 
@@ -100,7 +106,7 @@ def checkGameVersions(file:TextIOWrapper): #gets all basic versions from a log f
                 #print("Minecraft is version " + str(minecraftVer))
 
     if loader == '':
-        print("It appears you are playing vanilla, or you are using an unsupported modlauncher. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
+        print("It appears you are playing vanilla, or you are using an unsupported modloader. Detection and analysis will continue as though your game is vanilla, but it may not be correct.")
         loader = "Vanilla"
     gameVersions = {"loader":loader, "loaderVersion":loaderVer, "minecraftVersion":minecraftVer,"isCrashReport":False}
     return gameVersions
