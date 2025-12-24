@@ -1,0 +1,1660 @@
+---- Quilt Loader: Failed to load ----
+Date/Time: 2025/12/23 18:02:13.7176 [-0500]
+Quilt Loader Version: 0.29.2
+
+-- Error 1 --
+
+YetAnotherConfigLib requires version [0.138.3+1.21.10, ∞) of fabric-api, which is missing!
+
+- <mods>/yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar
+
+
+-- Plugin State --
+
+Cycle number = 1
+Cycle Step = SOLVE
+
+Loaded Plugins (2):
+ - 'quilt_loader' (Builtin)
+ - 'quilted_fabric_loader' (Builtin)
+
+
+
+
+-- Mod Table --
+
+| Mod                                    | ID                                                   | Version              | Plugin                | Flags | File Hash (SHA-1)                        | File(s)                                                                                                | Sub-File                                                                                                 |
+|----------------------------------------|------------------------------------------------------|----------------------|-----------------------|-------|------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| AppleSkin                              | appleskin                                            | 3.0.7+mc1.21.9       | quilted_fabric_loader | ..    | a95d28e65583081b13e3c980690ee54042a5ed74 | <mods>\appleskin-fabric-mc1.21.9-3.0.7.jar                                                             |                                                                                                          |
+| BetterF3                               | betterf3                                             | 16.0.3               | quilted_fabric_loader | ..    | 5baeed05a286409c8c49bb091f26d7f70c9d7503 | <mods>\BetterF3-16.0.3-Fabric-1.21.10.jar                                                              |                                                                                                          |
+| Cloth Config v20                       | cloth-config                                         | 20.0.148             | quilted_fabric_loader | ..    | a95d28e65583081b13e3c980690ee54042a5ed74 | <mods>\appleskin-fabric-mc1.21.9-3.0.7.jar                                                             | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar                                                   |
+| Cloth Config v20                       | cloth-config                                         | 20.0.148             | quilted_fabric_loader | ..    | 5baeed05a286409c8c49bb091f26d7f70c9d7503 | <mods>\BetterF3-16.0.3-Fabric-1.21.10.jar                                                              | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar                                                   |
+| Cloth Config v20                       | cloth-config                                         | 20.0.149             | quilted_fabric_loader | ..    | c86e380bdac24e4ecdd148558e9d4ddf32c86059 | <mods>\cloth-config-20.0.149-fabric.jar                                                                |                                                                                                          |
+| Cloth Config v20                       | cloth-config                                         | 20.0.148             | quilted_fabric_loader | ..    | 5baeed05a286409c8c49bb091f26d7f70c9d7503 | <mods>\BetterF3-16.0.3-Fabric-1.21.10.jar                                                              | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar                                                   |
+| Cloth Config v20                       | cloth-config                                         | 20.0.149             | quilted_fabric_loader | ..    | c86e380bdac24e4ecdd148558e9d4ddf32c86059 | <mods>\cloth-config-20.0.149-fabric.jar                                                                |                                                                                                          |
+| Cloth Config v20                       | cloth-config                                         | 20.0.148             | quilted_fabric_loader | ..    | a95d28e65583081b13e3c980690ee54042a5ed74 | <mods>\appleskin-fabric-mc1.21.9-3.0.7.jar                                                             | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar                                                   |
+| Dynamic FPS                            | dynamic_fps                                          | 3.11.0               | quilt_loader          | ..    | 6977d6a8cc5cd4309086b54e8d45782c58a41da9 | <mods>\dynamic-fps-3.11.0+minecraft-1.21.9-quilt.jar                                                   |                                                                                                          |
+| EntityCulling                          | entityculling                                        | 1.9.3                | quilted_fabric_loader | ..    | db022121a0326fe346faa7ff2412a61758b91c0a | <mods>\entityculling-fabric-1.9.3-mc1.21.10.jar                                                        |                                                                                                          |
+| Fabric API                             | fabric-api                                           | 0.134.1+1.21.9       | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   |                                                                                                          |
+| Fabric API                             | fabric-api                                           | 0.134.1+1.21.9       | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   |                                                                                                          |
+| Fabric API Base                        | fabric-api-base                                      | 1.0.0+14b92d8987     | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/fabric-api-base-1.0.0+14b92d8987.jar                                                      |
+| Fabric API Base                        | fabric-api-base                                      | 1.0.0+14b92d897d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-api-base-1.0.0+14b92d897d.jar                                                      |
+| Fabric API Base                        | fabric-api-base                                      | 1.0.0+14b92d896f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-api-base-1.0.0+14b92d896f.jar                                                      |
+| Fabric API Base                        | fabric-api-base                                      | 1.0.0+14b92d8987     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-api-base-1.0.0+14b92d8987.jar                                                      |
+| Fabric API Lookup API (v1)             | fabric-api-lookup-api-v1                             | 1.6.106+d17682157d   | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-api-lookup-api-v1-1.6.106+d17682157d.jar                                           |
+| Fabric Biome API (v1)                  | fabric-biome-api-v1                                  | 16.1.0+c2417d4f7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-biome-api-v1-16.1.0+c2417d4f7d.jar                                                 |
+| Fabric Block API (v1)                  | fabric-block-api-v1                                  | 1.1.5+d17682157d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-block-api-v1-1.1.5+d17682157d.jar                                                  |
+| Fabric BlockView API (v2)              | fabric-block-view-api-v2                             | 1.0.34+e4fd1b926f    | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-block-view-api-v2-1.0.34+e4fd1b926f.jar                                            |
+| Fabric BlockView API (v2)              | fabric-block-view-api-v2                             | 1.0.34+e4fd1b927d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-block-view-api-v2-1.0.34+e4fd1b927d.jar                                            |
+| Fabric Command API (v2)                | fabric-command-api-v2                                | 2.3.7+328a75ba7d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-command-api-v2-2.3.7+328a75ba7d.jar                                                |
+| Fabric Command API (v2)                | fabric-command-api-v2                                | 2.3.7+328a75ba87     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-command-api-v2-2.3.7+328a75ba87.jar                                                |
+| Fabric Content Registries (v0)         | fabric-content-registries-v0                         | 10.2.3+b6a242647d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-content-registries-v0-10.2.3+b6a242647d.jar                                        |
+| Fabric Convention Tags                 | fabric-convention-tags-v1                            | 2.1.47+7f945d5b7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-convention-tags-v1-2.1.47+7f945d5b7d.jar                                           |
+| Fabric Convention Tags (v2)            | fabric-convention-tags-v2                            | 2.15.12+3154c1c87d   | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-convention-tags-v2-2.15.12+3154c1c87d.jar                                          |
+| Fabric Crash Report Info (v1)          | fabric-crash-report-info-v1                          | 0.3.18+33df5e6e7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-crash-report-info-v1-0.3.18+33df5e6e7d.jar                                         |
+| Fabric Data Attachment API (v1)        | fabric-data-attachment-api-v1                        | 1.8.28+9bce411b7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-data-attachment-api-v1-1.8.28+9bce411b7d.jar                                       |
+| Fabric Data Generation API (v1)        | fabric-data-generation-api-v1                        | 23.2.22+d8b85ef17d   | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-data-generation-api-v1-23.2.22+d8b85ef17d.jar                                      |
+| Fabric Dimensions API (v1)             | fabric-dimensions-v1                                 | 4.0.22+38b9cc197d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-dimensions-v1-4.0.22+38b9cc197d.jar                                                |
+| Fabric Entity Events (v1)              | fabric-entity-events-v1                              | 2.1.12+14b92d897d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-entity-events-v1-2.1.12+14b92d897d.jar                                             |
+| Fabric Events Interaction (v0)         | fabric-events-interaction-v0                         | 4.0.35+5ba217127d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-events-interaction-v0-4.0.35+5ba217127d.jar                                        |
+| Fabric Game Rule API (v1)              | fabric-game-rule-api-v1                              | 1.1.1+e47eaae57d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-game-rule-api-v1-1.1.1+e47eaae57d.jar                                              |
+| Fabric Item API (v1)                   | fabric-item-api-v1                                   | 11.5.8+9bce411b7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-item-api-v1-11.5.8+9bce411b7d.jar                                                  |
+| Fabric Item Group API (v1)             | fabric-item-group-api-v1                             | 4.2.24+86b3ae577d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-item-group-api-v1-4.2.24+86b3ae577d.jar                                            |
+| Fabric Key Binding API (v1)            | fabric-key-binding-api-v1                            | 1.1.1+b3ba9c487d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c487d.jar                                            |
+| Fabric Key Binding API (v1)            | fabric-key-binding-api-v1                            | 1.1.1+b3ba9c4887     | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c4887.jar                                            |
+| Fabric Key Binding API (v1)            | fabric-key-binding-api-v1                            | 1.1.1+b3ba9c4887     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c4887.jar                                            |
+| Fabric Language Kotlin                 | fabric-language-kotlin                               | 1.13.8+kotlin.2.3.0  | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  |                                                                                                          |
+| Fabric Lifecycle Events (v1)           | fabric-lifecycle-events-v1                           | 2.6.9+33df5e6e6f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e6f.jar                                           |
+| Fabric Lifecycle Events (v1)           | fabric-lifecycle-events-v1                           | 2.6.9+33df5e6e87     | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e87.jar                                           |
+| Fabric Lifecycle Events (v1)           | fabric-lifecycle-events-v1                           | 2.6.9+33df5e6e87     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e87.jar                                           |
+| Fabric Lifecycle Events (v1)           | fabric-lifecycle-events-v1                           | 2.6.9+33df5e6e7d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e7d.jar                                           |
+| Fabric Loot API (v2)                   | fabric-loot-api-v2                                   | 3.0.64+3f89f5a57d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-loot-api-v2-3.0.64+3f89f5a57d.jar                                                  |
+| Fabric Loot API (v3)                   | fabric-loot-api-v3                                   | 2.0.11+d17682157d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-loot-api-v3-2.0.11+d17682157d.jar                                                  |
+| Fabric Message API (v1)                | fabric-message-api-v1                                | 6.1.7+3154c1c87d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-message-api-v1-6.1.7+3154c1c87d.jar                                                |
+| Fabric Model Loading API (v1)          | fabric-model-loading-api-v1                          | 6.0.1+3ffd6ef07d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-model-loading-api-v1-6.0.1+3ffd6ef07d.jar                                          |
+| Fabric Networking API (v1)             | fabric-networking-api-v1                             | 5.0.13+d269470c7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-networking-api-v1-5.0.13+d269470c7d.jar                                            |
+| Fabric Networking API (v1)             | fabric-networking-api-v1                             | 5.0.12+86b3ae5787    | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-networking-api-v1-5.0.12+86b3ae5787.jar                                            |
+| Fabric Object Builder API (v1)         | fabric-object-builder-api-v1                         | 21.1.24+9bce411b7d   | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-object-builder-api-v1-21.1.24+9bce411b7d.jar                                       |
+| Fabric Particles (v1)                  | fabric-particles-v1                                  | 4.2.2+a0ee59a47d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-particles-v1-4.2.2+a0ee59a47d.jar                                                  |
+| Fabric Recipe API (v1)                 | fabric-recipe-api-v1                                 | 8.1.26+d17682157d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-recipe-api-v1-8.1.26+d17682157d.jar                                                |
+| Fabric Registry Sync (v0)              | fabric-registry-sync-v0                              | 6.1.41+679c8c5c7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-registry-sync-v0-6.1.41+679c8c5c7d.jar                                             |
+| Fabric Renderer - Indigo               | fabric-renderer-indigo                               | 4.0.20+c523dc837d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-renderer-indigo-4.0.20+c523dc837d.jar                                              |
+| Fabric Renderer API (v1)               | fabric-renderer-api-v1                               | 7.1.2+c523dc837d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-renderer-api-v1-7.1.2+c523dc837d.jar                                               |
+| Fabric Renderer API (v1)               | fabric-renderer-api-v1                               | 7.1.2+328a75ba6f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-renderer-api-v1-7.1.2+328a75ba6f.jar                                               |
+| Fabric Rendering (v1)                  | fabric-rendering-v1                                  | 16.0.2+91152d886f    | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-rendering-v1-16.0.2+91152d886f.jar                                                 |
+| Fabric Rendering (v1)                  | fabric-rendering-v1                                  | 16.0.1+328a75ba87    | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-rendering-v1-16.0.1+328a75ba87.jar                                                 |
+| Fabric Rendering (v1)                  | fabric-rendering-v1                                  | 16.0.1+328a75ba7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-rendering-v1-16.0.1+328a75ba7d.jar                                                 |
+| Fabric Rendering Fluids (v1)           | fabric-rendering-fluids-v1                           | 3.1.38+86b3ae577d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-rendering-fluids-v1-3.1.38+86b3ae577d.jar                                          |
+| Fabric Rendering Fluids (v1)           | fabric-rendering-fluids-v1                           | 3.1.38+86b3ae576f    | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-rendering-fluids-v1-3.1.38+86b3ae576f.jar                                          |
+| Fabric Resource Conditions API (v1)    | fabric-resource-conditions-api-v1                    | 5.0.28+33df5e6e7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-resource-conditions-api-v1-5.0.28+33df5e6e7d.jar                                   |
+| Fabric Resource Loader (v0)            | fabric-resource-loader-v0                            | 3.2.2+3388a3b287     | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b287.jar                                            |
+| Fabric Resource Loader (v0)            | fabric-resource-loader-v0                            | 3.2.3+3388a3b26f     | quilted_fabric_loader | ..    | 5baeed05a286409c8c49bb091f26d7f70c9d7503 | <mods>\BetterF3-16.0.3-Fabric-1.21.10.jar                                                              | /META-INF/jars/fabric-resource-loader-v0-3.2.3+3388a3b26f.jar                                            |
+| Fabric Resource Loader (v0)            | fabric-resource-loader-v0                            | 3.2.2+3388a3b27d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b27d.jar                                            |
+| Fabric Resource Loader (v0)            | fabric-resource-loader-v0                            | 3.2.3+3388a3b26f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-resource-loader-v0-3.2.3+3388a3b26f.jar                                            |
+| Fabric Resource Loader (v0)            | fabric-resource-loader-v0                            | 3.2.2+3388a3b287     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b287.jar                                            |
+| Fabric Resource Loader (v1)            | fabric-resource-loader-v1                            | 1.0.2+225bca4087     | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/fabric-resource-loader-v1-1.0.2+225bca4087.jar                                            |
+| Fabric Resource Loader (v1)            | fabric-resource-loader-v1                            | 1.0.3+8cc86c156f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-resource-loader-v1-1.0.3+8cc86c156f.jar                                            |
+| Fabric Resource Loader (v1)            | fabric-resource-loader-v1                            | 1.0.2+225bca407d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-resource-loader-v1-1.0.2+225bca407d.jar                                            |
+| Fabric Screen API (v1)                 | fabric-screen-api-v1                                 | 3.1.0+9c82a7987d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-screen-api-v1-3.1.0+9c82a7987d.jar                                                 |
+| Fabric Screen API (v1)                 | fabric-screen-api-v1                                 | 3.0.3+86b3ae5787     | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/fabric-screen-api-v1-3.0.3+86b3ae5787.jar                                                 |
+| Fabric Screen Handler API (v1)         | fabric-screen-handler-api-v1                         | 1.3.150+d17682157d   | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-screen-handler-api-v1-1.3.150+d17682157d.jar                                       |
+| Fabric Serialization API (v1)          | fabric-serialization-api-v1                          | 1.0.0+d857c9767d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-serialization-api-v1-1.0.0+d857c9767d.jar                                          |
+| Fabric Sound API (v1)                  | fabric-sound-api-v1                                  | 1.0.45+328a75ba7d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-sound-api-v1-1.0.45+328a75ba7d.jar                                                 |
+| Fabric Tag API (v1)                    | fabric-tag-api-v1                                    | 1.2.10+2fa446b27d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-tag-api-v1-1.2.10+2fa446b27d.jar                                                   |
+| Fabric Tag API (v1)                    | fabric-tag-api-v1                                    | 1.2.10+2fa446b27d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-tag-api-v1-1.2.10+2fa446b27d.jar                                                   |
+| Fabric Transfer API (v1)               | fabric-transfer-api-v1                               | 6.0.15+79ec2c127d    | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-transfer-api-v1-6.0.15+79ec2c127d.jar                                              |
+| Fabric Transitive Access Wideners (v1) | fabric-transitive-access-wideners-v1                 | 6.5.3+41eb43437d     | quilted_fabric_loader | ..    | c1ccbff5d3aca7d86963677da71e700498c3c9b  | <mods>\fabric-api-0.134.1+1.21.9.jar                                                                   | /META-INF/jars/fabric-transitive-access-wideners-v1-6.5.3+41eb43437d.jar                                 |
+| Fabric Transitive Access Wideners (v1) | fabric-transitive-access-wideners-v1                 | 6.5.3+41eb43436f     | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               | /META-INF/jars/fabric-transitive-access-wideners-v1-6.5.3+41eb43436f.jar                                 |
+| FerriteCore                            | ferritecore                                          | 8.0.2                | quilted_fabric_loader | ..    | 5ea50634ed19a5e10acb46258bab0c1ee2f64ca  | <mods>\ferritecore-8.0.2-fabric.jar                                                                    |                                                                                                          |
+| Jade                                   | jade                                                 | 20.1.0+fabric        | quilted_fabric_loader | ..    | d1ae69baa96742259036573fd0df35a58f7fd088 | <mods>\Jade-1.21.9-Fabric-20.1.0.jar                                                                   |                                                                                                          |
+| Minecraft                              | minecraft                                            | 1.21.9               | quilt_loader          | ..    | a15470df10ca022af2fcffd734a4327adbbf3855 | <game>\.cache\quilt_loader\remappedJars\minecraft-1.21.9-0.29.2\client-intermediary.jar                |                                                                                                          |
+| MixinExtras                            | mixinextras                                          | 0.5.0                | quilted_fabric_loader | ..    | 517e5a696ba6ff779e09821b1799c989779b4219 | <user>\AppData\Roaming\PrismLauncher\libraries\org\quiltmc\quilt-loader\0.29.2\quilt-loader-0.29.2.jar | /META-INF/jars/mixinextras-fabric-0.5.0.jar                                                              |
+| MixinExtras                            | mixinextras                                          | 0.5.0                | quilted_fabric_loader | ..    | 517e5a696ba6ff779e09821b1799c989779b4219 | <user>\AppData\Roaming\PrismLauncher\libraries\org\quiltmc\quilt-loader\0.29.2\quilt-loader-0.29.2.jar | /META-INF/jars/mixinextras-fabric-0.5.0.jar                                                              |
+| Mod Menu                               | modmenu                                              | 16.0.0-rc.2          | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         |                                                                                                          |
+| NotEnoughAnimations                    | notenoughanimations                                  | 1.10.6               | quilted_fabric_loader | ..    | 72c2f83a05ab40c055f2d11d61d4e36a3f8d5e1f | <mods>\notenoughanimations-fabric-1.10.6-mc1.21.10.jar                                                 |                                                                                                          |
+| OpenJDK 64-Bit Server VM               | java                                                 | 21                   | quilt_loader          | ..    |                                          | <user>\AppData\Roaming\PrismLauncher\java\java-runtime-delta                                           |                                                                                                          |
+| Placeholder API                        | placeholder-api                                      | 2.8.0+1.21.9         | quilted_fabric_loader | ..    | feae6f4e5df7a7ec91328146834ae40801bbbc9a | <mods>\modmenu-16.0.0-rc.2.jar                                                                         | /META-INF/jars/placeholder-api-2.8.0+1.21.9.jar                                                          |
+| Placeholder API                        | placeholder-api                                      | 2.8.1+1.21.10        | quilted_fabric_loader | ..    | 4950367323147265b272ad2156bf1a343db3f64c | <mods>\placeholder-api-2.8.1+1.21.10.jar                                                               |                                                                                                          |
+| Quilt Loader                           | quilt_loader                                         | 0.29.2               | quilt_loader          | ..    | 517e5a696ba6ff779e09821b1799c989779b4219 | <user>\AppData\Roaming\PrismLauncher\libraries\org\quiltmc\quilt-loader\0.29.2\quilt-loader-0.29.2.jar |                                                                                                          |
+| Quilt Loader                           | quilt_loader                                         | 0.29.2               | quilt_loader          | ..    | 517e5a696ba6ff779e09821b1799c989779b4219 | <user>\AppData\Roaming\PrismLauncher\libraries\org\quiltmc\quilt-loader\0.29.2\quilt-loader-0.29.2.jar |                                                                                                          |
+| Simple Voice Chat                      | voicechat                                            | 1.21.9-2.6.4         | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               |                                                                                                          |
+| Simple Voice Chat API                  | voicechat_api                                        | 2.6.0                | quilted_fabric_loader | ..    | 87e78957bfc1ed4926b68abeefbd8f224dbcbe6e | <mods>\voicechat-fabric-1.21.9-2.6.4.jar                                                               | /META-INF/jars/voicechat-api-2.6.0.jar                                                                   |
+| Sodium                                 | sodium                                               | 0.7.3+mc1.21.10      | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               |                                                                                                          |
+| Sodium                                 | sodium                                               | 0.7.3+mc1.21.10      | quilted_fabric_loader | ..    | 1c3ffa862d9fa4479abf67a88527907d60237248 | <mods>\sodium-fabric-0.7.3+mc1.21.10.jar                                                               |                                                                                                          |
+| Sound Physics Remastered               | sound_physics_remastered                             | 1.21.9-1.5.1         | quilted_fabric_loader | ..    | 9c98f3f51c93a8f6b848bc81568ec9b2bafae536 | <mods>\sound-physics-remastered-fabric-1.21.9-1.5.1.jar                                                |                                                                                                          |
+| TRansition                             | transition                                           | 1.0.8                | quilted_fabric_loader | ..    | db022121a0326fe346faa7ff2412a61758b91c0a | <mods>\entityculling-fabric-1.9.3-mc1.21.10.jar                                                        | /META-INF/jars/TRansition-1.0.8-1.21.10-fabric-SNAPSHOT.jar                                              |
+| TRansition                             | transition                                           | 1.0.7                | quilted_fabric_loader | ..    | 72c2f83a05ab40c055f2d11d61d4e36a3f8d5e1f | <mods>\notenoughanimations-fabric-1.10.6-mc1.21.10.jar                                                 | /META-INF/jars/TRansition-1.0.7-1.21.10-fabric-SNAPSHOT.jar                                              |
+| TRender                                | trender                                              | 1.0.8                | quilted_fabric_loader | ..    | db022121a0326fe346faa7ff2412a61758b91c0a | <mods>\entityculling-fabric-1.9.3-mc1.21.10.jar                                                        | /META-INF/jars/TRender-1.0.8-1.21.10-fabric-SNAPSHOT.jar                                                 |
+| TRender                                | trender                                              | 1.0.8                | quilted_fabric_loader | ..    | 72c2f83a05ab40c055f2d11d61d4e36a3f8d5e1f | <mods>\notenoughanimations-fabric-1.10.6-mc1.21.10.jar                                                 | /META-INF/jars/TRender-1.0.8-1.21.10-fabric-SNAPSHOT.jar                                                 |
+| YetAnotherConfigLib                    | yet_another_config_lib_v3                            | 3.8.0+1.21.9-fabric  | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar                                            |
+| YetAnotherConfigLib                    | yet_another_config_lib_v3                            | 3.8.1+1.21.10-fabric | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              |                                                                                                          |
+| Zoomify                                | zoomify                                              | 2.14.6+1.21.9        | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       |                                                                                                          |
+| atomicfu-jvm                           | org_jetbrains_kotlinx_atomicfu-jvm                   | 0.29.0               | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/atomicfu-jvm-0.29.0.jar                                                                   |
+| battery                                | net_lostluma_battery                                 | 1.3.0                | quilted_fabric_loader | ..    | 6977d6a8cc5cd4309086b54e8d45782c58a41da9 | <mods>\dynamic-fps-3.11.0+minecraft-1.21.9-quilt.jar                                                   | /META-INF/jars/battery-1.3.0.jar                                                                         |
+| cloth-basic-math                       | cloth-basic-math                                     | 0.6.1                | quilted_fabric_loader | ..    | a95d28e65583081b13e3c980690ee54042a5ed74 | <mods>\appleskin-fabric-mc1.21.9-3.0.7.jar                                                             | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar!/META-INF/jars/basic-math-0.6.1.jar               |
+| cloth-basic-math                       | cloth-basic-math                                     | 0.6.1                | quilted_fabric_loader | ..    | c86e380bdac24e4ecdd148558e9d4ddf32c86059 | <mods>\cloth-config-20.0.149-fabric.jar                                                                | /META-INF/jars/basic-math-0.6.1.jar                                                                      |
+| cloth-basic-math                       | cloth-basic-math                                     | 0.6.1                | quilted_fabric_loader | ..    | 5baeed05a286409c8c49bb091f26d7f70c9d7503 | <mods>\BetterF3-16.0.3-Fabric-1.21.10.jar                                                              | /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar!/META-INF/jars/basic-math-0.6.1.jar               |
+| common-image                           | com_twelvemonkeys_common_common-image                | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/common-image-3.12.0.jar                                                                   |
+| common-image                           | com_twelvemonkeys_common_common-image                | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/common-image-3.12.0.jar     |
+| common-io                              | com_twelvemonkeys_common_common-io                   | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/common-io-3.12.0.jar        |
+| common-io                              | com_twelvemonkeys_common_common-io                   | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/common-io-3.12.0.jar                                                                      |
+| common-lang                            | com_twelvemonkeys_common_common-lang                 | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/common-lang-3.12.0.jar      |
+| common-lang                            | com_twelvemonkeys_common_common-lang                 | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/common-lang-3.12.0.jar                                                                    |
+| gson                                   | org_quiltmc_parsers_gson                             | 0.2.1                | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/gson-0.2.1.jar                                                                            |
+| gson                                   | org_quiltmc_parsers_gson                             | 0.2.1                | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/gson-0.2.1.jar              |
+| imageio-core                           | com_twelvemonkeys_imageio_imageio-core               | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/imageio-core-3.12.0.jar     |
+| imageio-core                           | com_twelvemonkeys_imageio_imageio-core               | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/imageio-core-3.12.0.jar                                                                   |
+| imageio-metadata                       | com_twelvemonkeys_imageio_imageio-metadata           | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/imageio-metadata-3.12.0.jar |
+| imageio-metadata                       | com_twelvemonkeys_imageio_imageio-metadata           | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/imageio-metadata-3.12.0.jar                                                               |
+| imageio-webp                           | com_twelvemonkeys_imageio_imageio-webp               | 3.12.0               | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/imageio-webp-3.12.0.jar                                                                   |
+| imageio-webp                           | com_twelvemonkeys_imageio_imageio-webp               | 3.12.0               | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/imageio-webp-3.12.0.jar     |
+| json                                   | org_quiltmc_parsers_json                             | 0.2.1                | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar!/META-INF/jars/json-0.2.1.jar              |
+| json                                   | org_quiltmc_parsers_json                             | 0.2.1                | quilted_fabric_loader | ..    | eb2d58b0905ca4ee75207a214d41d36d1bc5d38d | <mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar                                              | /META-INF/jars/json-0.2.1.jar                                                                            |
+| kotlin-reflect                         | org_jetbrains_kotlin_kotlin-reflect                  | 2.3.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlin-reflect-2.3.0.jar                                                                  |
+| kotlin-stdlib                          | org_jetbrains_kotlin_kotlin-stdlib                   | 2.3.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlin-stdlib-2.3.0.jar                                                                   |
+| kotlin-stdlib-jdk7                     | org_jetbrains_kotlin_kotlin-stdlib-jdk7              | 2.3.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlin-stdlib-jdk7-2.3.0.jar                                                              |
+| kotlin-stdlib-jdk8                     | org_jetbrains_kotlin_kotlin-stdlib-jdk8              | 2.3.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlin-stdlib-jdk8-2.3.0.jar                                                              |
+| kotlinx-coroutines-core-jvm            | org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm    | 1.10.2               | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-coroutines-core-jvm-1.10.2.jar                                                    |
+| kotlinx-coroutines-jdk8                | org_jetbrains_kotlinx_kotlinx-coroutines-jdk8        | 1.10.2               | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-coroutines-jdk8-1.10.2.jar                                                        |
+| kotlinx-datetime-jvm                   | org_jetbrains_kotlinx_kotlinx-datetime-jvm           | 0.7.1                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-datetime-jvm-0.7.1.jar                                                            |
+| kotlinx-io-bytestring-jvm              | org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm      | 0.8.2                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-io-bytestring-jvm-0.8.2.jar                                                       |
+| kotlinx-io-core-jvm                    | org_jetbrains_kotlinx_kotlinx-io-core-jvm            | 0.8.2                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-io-core-jvm-0.8.2.jar                                                             |
+| kotlinx-serialization-cbor-jvm         | org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm | 1.9.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-serialization-cbor-jvm-1.9.0.jar                                                  |
+| kotlinx-serialization-core-jvm         | org_jetbrains_kotlinx_kotlinx-serialization-core-jvm | 1.9.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-serialization-core-jvm-1.9.0.jar                                                  |
+| kotlinx-serialization-json-jvm         | org_jetbrains_kotlinx_kotlinx-serialization-json-jvm | 1.9.0                | quilted_fabric_loader | ..    | 05fe02fe61232c4ddea4059e8103281424d5a2bd | <mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar                                                  | /META-INF/jars/kotlinx-serialization-json-jvm-1.9.0.jar                                                  |
+| ktoml-core-jvm                         | com_akuleshov7_ktoml-core-jvm                        | 0.5.2                | quilted_fabric_loader | ..    | 6a07d3b45d02e86ed5184dfd1309803f777a1a5e | <mods>\Zoomify-2.14.6+1.21.9.jar                                                                       | /META-INF/jars/ktoml-core-jvm-0.5.2.jar                                                                  |
+|----------------------------------------|------------------------------------------------------|----------------------|-----------------------|-------|------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+
+
+-- Mod Details --
+
+<game>\.cache\quilt_loader\remappedJars\minecraft-1.21.9-0.29.2\client-intermediary.jar:
+###############################
+#  Loaded by  'quilt_loader'  #
+#  Name     = 'Minecraft'     #
+#  ID       = 'minecraft'     #
+#  Version  = '1.21.9'        #
+#  LoadType = IF_REQUIRED     #
+#  Depends on 'java' [21, ∞)  #
+###############################
+
+<mods>\appleskin-fabric-mc1.21.9-3.0.7.jar:
+#############################################################
+#  Loaded by  'quilted_fabric_loader'                       #
+#  Name     = 'AppleSkin'                                   #
+#  ID       = 'appleskin'                                   #
+#  Version  = '3.0.7+mc1.21.9'                              #
+#  LoadType = IF_POSSIBLE                                   #
+#  Depends on 'fabricloader' [0.15.10, ∞)                   #
+#  Depends on 'fabric-api' (-∞, ∞)                          #
+#  Breaks  on 'roughlyenoughitems' (-∞, 6.0.306-alpha)      #
+#                                                           #
+#  Contained Jars (1):                                      #
+#                                                           #
+#  /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar:  #
+#  +--------------------------------------------+           #
+#  |  Loaded by  'quilted_fabric_loader'        |           #
+#  |  Name     = 'Cloth Config v20'             |           #
+#  |  ID       = 'cloth-config'                 |           #
+#  |  Version  = '20.0.148'                     |           #
+#  |  LoadType = IF_POSSIBLE                    |           #
+#  |  Provides   'cloth-config2' 20.0.148       |           #
+#  |  Depends on 'fabricloader' [0.14.0, ∞)     |           #
+#  |  Depends on 'minecraft' [1.21.9-, ∞)       |           #
+#  |                                            |           #
+#  |  Contained Jars (1):                       |           #
+#  |                                            |           #
+#  |  /META-INF/jars/basic-math-0.6.1.jar:      |           #
+#  |  ........................................  |           #
+#  |  :  Loaded by  'quilted_fabric_loader'  :  |           #
+#  |  :  Name     = 'cloth-basic-math'       :  |           #
+#  |  :  ID       = 'cloth-basic-math'       :  |           #
+#  |  :  Version  = '0.6.1'                  :  |           #
+#  |  :  LoadType = IF_POSSIBLE              :  |           #
+#  |  :......................................:  |           #
+#  |                                            |           #
+#  +--------------------------------------------+           #
+#                                                           #
+#############################################################
+
+<mods>\BetterF3-16.0.3-Fabric-1.21.10.jar:
+####################################################################
+#  Loaded by  'quilted_fabric_loader'                              #
+#  Name     = 'BetterF3'                                           #
+#  ID       = 'betterf3'                                           #
+#  Version  = '16.0.3'                                             #
+#  LoadType = IF_POSSIBLE                                          #
+#  Depends on 'fabricloader' [0.17.0, ∞)                           #
+#  Depends on 'minecraft' [1.21.9, ∞)                              #
+#                                                                  #
+#  Contained Jars (2):                                             #
+#                                                                  #
+#  /META-INF/jars/cloth-config-fabric-20.0.148-fabric.jar:         #
+#  +--------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'        |                  #
+#  |  Name     = 'Cloth Config v20'             |                  #
+#  |  ID       = 'cloth-config'                 |                  #
+#  |  Version  = '20.0.148'                     |                  #
+#  |  LoadType = IF_POSSIBLE                    |                  #
+#  |  Provides   'cloth-config2' 20.0.148       |                  #
+#  |  Depends on 'fabricloader' [0.14.0, ∞)     |                  #
+#  |  Depends on 'minecraft' [1.21.9-, ∞)       |                  #
+#  |                                            |                  #
+#  |  Contained Jars (1):                       |                  #
+#  |                                            |                  #
+#  |  /META-INF/jars/basic-math-0.6.1.jar:      |                  #
+#  |  ........................................  |                  #
+#  |  :  Loaded by  'quilted_fabric_loader'  :  |                  #
+#  |  :  Name     = 'cloth-basic-math'       :  |                  #
+#  |  :  ID       = 'cloth-basic-math'       :  |                  #
+#  |  :  Version  = '0.6.1'                  :  |                  #
+#  |  :  LoadType = IF_POSSIBLE              :  |                  #
+#  |  :......................................:  |                  #
+#  |                                            |                  #
+#  +--------------------------------------------+                  #
+#                                                                  #
+#  /META-INF/jars/fabric-resource-loader-v0-3.2.3+3388a3b26f.jar:  #
+#  +--------------------------------------------------+            #
+#  |  Loaded by  'quilted_fabric_loader'              |            #
+#  |  Name     = 'Fabric Resource Loader (v0)'        |            #
+#  |  ID       = 'fabric-resource-loader-v0'          |            #
+#  |  Version  = '3.2.3+3388a3b26f'                   |            #
+#  |  LoadType = IF_POSSIBLE                          |            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |            #
+#  |  Depends on 'fabric-resource-loader-v1' (-∞, ∞)  |            #
+#  +--------------------------------------------------+            #
+#                                                                  #
+####################################################################
+
+<mods>\cloth-config-20.0.149-fabric.jar:
+##############################################
+#  Loaded by  'quilted_fabric_loader'        #
+#  Name     = 'Cloth Config v20'             #
+#  ID       = 'cloth-config'                 #
+#  Version  = '20.0.149'                     #
+#  LoadType = IF_POSSIBLE                    #
+#  Provides   'cloth-config2' 20.0.149       #
+#  Depends on 'fabricloader' [0.14.0, ∞)     #
+#  Depends on 'minecraft' [1.21.9-, ∞)       #
+#                                            #
+#  Contained Jars (1):                       #
+#                                            #
+#  /META-INF/jars/basic-math-0.6.1.jar:      #
+#  +--------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'  |  #
+#  |  Name     = 'cloth-basic-math'       |  #
+#  |  ID       = 'cloth-basic-math'       |  #
+#  |  Version  = '0.6.1'                  |  #
+#  |  LoadType = IF_POSSIBLE              |  #
+#  +--------------------------------------+  #
+#                                            #
+##############################################
+
+<mods>\dynamic-fps-3.11.0+minecraft-1.21.9-quilt.jar:
+#####################################################
+#  Loaded by  'quilt_loader'                        #
+#  Name     = 'Dynamic FPS'                         #
+#  ID       = 'dynamic_fps'                         #
+#  Version  = '3.11.0'                              #
+#  LoadType = IF_REQUIRED                           #
+#  Depends on 'quilt_loader' [0.25.0, ∞)            #
+#  Depends on 'minecraft' [1.21.9-beta.1, ∞)        #
+#  Depends on 'mixinextras' [0.3.2, ∞)              #
+#  Depends on 'fabric-resource-loader-v0' (-∞, ∞)   #
+#  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  #
+#  Depends on 'modmenu' (-∞, ∞)                     #
+#  Depends on 'cloth-config' (-∞, ∞)                #
+#                                                   #
+#  Contained Jars (1):                              #
+#                                                   #
+#  /META-INF/jars/battery-1.3.0.jar:                #
+#  +--------------------------------------+         #
+#  |  Loaded by  'quilted_fabric_loader'  |         #
+#  |  Name     = 'battery'                |         #
+#  |  ID       = 'net_lostluma_battery'   |         #
+#  |  Version  = '1.3.0'                  |         #
+#  |  LoadType = IF_POSSIBLE              |         #
+#  +--------------------------------------+         #
+#                                                   #
+#####################################################
+
+<mods>\entityculling-fabric-1.9.3-mc1.21.10.jar:
+##################################################################
+#  Loaded by  'quilted_fabric_loader'                            #
+#  Name     = 'EntityCulling'                                    #
+#  ID       = 'entityculling'                                    #
+#  Version  = '1.9.3'                                            #
+#  LoadType = IF_POSSIBLE                                        #
+#  Depends on 'minecraft' [1.21-, 1.22-)                         #
+#  Depends on 'fabric-api' (-∞, ∞)                               #
+#  Breaks  on 'tlskincape' (-∞, ∞)                               #
+#                                                                #
+#  Contained Jars (2):                                           #
+#                                                                #
+#  /META-INF/jars/TRansition-1.0.8-1.21.10-fabric-SNAPSHOT.jar:  #
+#  +-----------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'     |                   #
+#  |  Name     = 'TRansition'                |                   #
+#  |  ID       = 'transition'                |                   #
+#  |  Version  = '1.0.8'                     |                   #
+#  |  LoadType = IF_POSSIBLE                 |                   #
+#  |  Depends on 'minecraft' [1.21-, 1.22-)  |                   #
+#  |  Depends on 'fabric-api' (-∞, ∞)        |                   #
+#  |  Breaks  on 'tlskincape' (-∞, ∞)        |                   #
+#  +-----------------------------------------+                   #
+#                                                                #
+#  /META-INF/jars/TRender-1.0.8-1.21.10-fabric-SNAPSHOT.jar:     #
+#  +-----------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'     |                   #
+#  |  Name     = 'TRender'                   |                   #
+#  |  ID       = 'trender'                   |                   #
+#  |  Version  = '1.0.8'                     |                   #
+#  |  LoadType = IF_POSSIBLE                 |                   #
+#  |  Depends on 'minecraft' [1.21-, 1.22-)  |                   #
+#  |  Depends on 'fabric-api' (-∞, ∞)        |                   #
+#  |  Breaks  on 'tlskincape' (-∞, ∞)        |                   #
+#  +-----------------------------------------+                   #
+#                                                                #
+##################################################################
+
+<mods>\fabric-api-0.134.1+1.21.9.jar:
+###############################################################################
+#  Loaded by  'quilted_fabric_loader'                                         #
+#  Name     = 'Fabric API'                                                    #
+#  ID       = 'fabric-api'                                                    #
+#  Version  = '0.134.1+1.21.9'                                                #
+#  LoadType = IF_POSSIBLE                                                     #
+#  Provides   'fabric' 0.134.1+1.21.9                                         #
+#  Depends on 'fabricloader' [0.17.0, ∞)                                      #
+#  Depends on 'java' [21, ∞)                                                  #
+#  Depends on 'minecraft' [1.21.9-, 1.21.10-)                                 #
+#                                                                             #
+#  Contained Jars (43):                                                       #
+#                                                                             #
+#  /META-INF/jars/fabric-api-base-1.0.0+14b92d897d.jar:                       #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric API Base'           |                                #
+#  |  ID       = 'fabric-api-base'           |                                #
+#  |  Version  = '1.0.0+14b92d897d'          |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-api-lookup-api-v1-1.6.106+d17682157d.jar:            #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric API Lookup API (v1)'          |                      #
+#  |  ID       = 'fabric-api-lookup-api-v1'            |                      #
+#  |  Version  = '1.6.106+d17682157d'                  |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)             |                      #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-biome-api-v1-16.1.0+c2417d4f7d.jar:                  #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Biome API (v1)'     |                                #
+#  |  ID       = 'fabric-biome-api-v1'       |                                #
+#  |  Version  = '16.1.0+c2417d4f7d'         |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  |  Depends on 'minecraft' [1.16.2, ∞)     |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-block-api-v1-1.1.5+d17682157d.jar:                   #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Block API (v1)'     |                                #
+#  |  ID       = 'fabric-block-api-v1'       |                                #
+#  |  Version  = '1.1.5+d17682157d'          |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-block-view-api-v2-1.0.34+e4fd1b927d.jar:             #
+#  +------------------------------------------+                               #
+#  |  Loaded by  'quilted_fabric_loader'      |                               #
+#  |  Name     = 'Fabric BlockView API (v2)'  |                               #
+#  |  ID       = 'fabric-block-view-api-v2'   |                               #
+#  |  Version  = '1.0.34+e4fd1b927d'          |                               #
+#  |  LoadType = IF_POSSIBLE                  |                               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)   |                               #
+#  +------------------------------------------+                               #
+#                                                                             #
+#  /META-INF/jars/fabric-command-api-v2-2.3.7+328a75ba7d.jar:                 #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Command API (v2)'            |                       #
+#  |  ID       = 'fabric-command-api-v2'              |                       #
+#  |  Version  = '2.3.7+328a75ba7d'                   |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |                       #
+#  |  Depends on 'minecraft' (1.19-alpha.22.11.a, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-content-registries-v0-10.2.3+b6a242647d.jar:         #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric Content Registries (v0)'      |                      #
+#  |  ID       = 'fabric-content-registries-v0'        |                      #
+#  |  Version  = '10.2.3+b6a242647d'                   |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)             |                      #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |                      #
+#  |  Depends on 'fabric-resource-loader-v0' (-∞, ∞)   |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-convention-tags-v1-2.1.47+7f945d5b7d.jar:            #
+#  +------------------------------------------+                               #
+#  |  Loaded by  'quilted_fabric_loader'      |                               #
+#  |  Name     = 'Fabric Convention Tags'     |                               #
+#  |  ID       = 'fabric-convention-tags-v1'  |                               #
+#  |  Version  = '2.1.47+7f945d5b7d'          |                               #
+#  |  LoadType = IF_POSSIBLE                  |                               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)   |                               #
+#  |  Depends on 'minecraft' [1.18.2, ∞)      |                               #
+#  +------------------------------------------+                               #
+#                                                                             #
+#  /META-INF/jars/fabric-convention-tags-v2-2.15.12+3154c1c87d.jar:           #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric Convention Tags (v2)'         |                      #
+#  |  ID       = 'fabric-convention-tags-v2'           |                      #
+#  |  Version  = '2.15.12+3154c1c87d'                  |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'minecraft' [1.20.5-beta.1, ∞)        |                      #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-crash-report-info-v1-0.3.18+33df5e6e7d.jar:          #
+#  +----------------------------------------------+                           #
+#  |  Loaded by  'quilted_fabric_loader'          |                           #
+#  |  Name     = 'Fabric Crash Report Info (v1)'  |                           #
+#  |  ID       = 'fabric-crash-report-info-v1'    |                           #
+#  |  Version  = '0.3.18+33df5e6e7d'              |                           #
+#  |  LoadType = IF_POSSIBLE                      |                           #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)       |                           #
+#  +----------------------------------------------+                           #
+#                                                                             #
+#  /META-INF/jars/fabric-data-attachment-api-v1-1.8.28+9bce411b7d.jar:        #
+#  +-----------------------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'                 |                    #
+#  |  Name     = 'Fabric Data Attachment API (v1)'       |                    #
+#  |  ID       = 'fabric-data-attachment-api-v1'         |                    #
+#  |  Version  = '1.8.28+9bce411b7d'                     |                    #
+#  |  LoadType = IF_POSSIBLE                             |                    #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)              |                    #
+#  |  Depends on 'fabric-entity-events-v1' (-∞, ∞)       |                    #
+#  |  Depends on 'fabric-object-builder-api-v1' (-∞, ∞)  |                    #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)      |                    #
+#  +-----------------------------------------------------+                    #
+#                                                                             #
+#  /META-INF/jars/fabric-data-generation-api-v1-23.2.22+d8b85ef17d.jar:       #
+#  +----------------------------------------------------------+               #
+#  |  Loaded by  'quilted_fabric_loader'                      |               #
+#  |  Name     = 'Fabric Data Generation API (v1)'            |               #
+#  |  ID       = 'fabric-data-generation-api-v1'              |               #
+#  |  Version  = '23.2.22+d8b85ef17d'                         |               #
+#  |  LoadType = IF_POSSIBLE                                  |               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                   |               #
+#  |  Depends on 'fabric-convention-tags-v2' (-∞, ∞)          |               #
+#  |  Depends on 'fabric-recipe-api-v1' (-∞, ∞)               |               #
+#  |  Depends on 'fabric-registry-sync-v0' (-∞, ∞)            |               #
+#  |  Depends on 'fabric-resource-conditions-api-v1' (-∞, ∞)  |               #
+#  |  Depends on 'fabric-tag-api-v1' (-∞, ∞)                  |               #
+#  +----------------------------------------------------------+               #
+#                                                                             #
+#  /META-INF/jars/fabric-dimensions-v1-4.0.22+38b9cc197d.jar:                 #
+#  +-------------------------------------------+                              #
+#  |  Loaded by  'quilted_fabric_loader'       |                              #
+#  |  Name     = 'Fabric Dimensions API (v1)'  |                              #
+#  |  ID       = 'fabric-dimensions-v1'        |                              #
+#  |  Version  = '4.0.22+38b9cc197d'           |                              #
+#  |  LoadType = IF_POSSIBLE                   |                              #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)    |                              #
+#  |  Depends on 'minecraft' [1.16-rc.3, ∞)    |                              #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)     |                              #
+#  +-------------------------------------------+                              #
+#                                                                             #
+#  /META-INF/jars/fabric-entity-events-v1-2.1.12+14b92d897d.jar:              #
+#  +------------------------------------------+                               #
+#  |  Loaded by  'quilted_fabric_loader'      |                               #
+#  |  Name     = 'Fabric Entity Events (v1)'  |                               #
+#  |  ID       = 'fabric-entity-events-v1'    |                               #
+#  |  Version  = '2.1.12+14b92d897d'          |                               #
+#  |  LoadType = IF_POSSIBLE                  |                               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)   |                               #
+#  +------------------------------------------+                               #
+#                                                                             #
+#  /META-INF/jars/fabric-events-interaction-v0-4.0.35+5ba217127d.jar:         #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Events Interaction (v0)'     |                       #
+#  |  ID       = 'fabric-events-interaction-v0'       |                       #
+#  |  Version  = '4.0.35+5ba217127d'                  |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |                       #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)   |                       #
+#  |  Depends on 'minecraft' [1.15-alpha.19.37.a, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-game-rule-api-v1-1.1.1+e47eaae57d.jar:               #
+#  +------------------------------------------+                               #
+#  |  Loaded by  'quilted_fabric_loader'      |                               #
+#  |  Name     = 'Fabric Game Rule API (v1)'  |                               #
+#  |  ID       = 'fabric-game-rule-api-v1'    |                               #
+#  |  Version  = '1.1.1+e47eaae57d'           |                               #
+#  |  LoadType = IF_POSSIBLE                  |                               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)   |                               #
+#  +------------------------------------------+                               #
+#                                                                             #
+#  /META-INF/jars/fabric-item-api-v1-11.5.8+9bce411b7d.jar:                   #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Item API (v1)'      |                                #
+#  |  ID       = 'fabric-item-api-v1'        |                                #
+#  |  Version  = '11.5.8+9bce411b7d'         |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)   |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-item-group-api-v1-4.2.24+86b3ae577d.jar:             #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Item Group API (v1)'         |                       #
+#  |  ID       = 'fabric-item-group-api-v1'           |                       #
+#  |  Version  = '4.2.24+86b3ae577d'                  |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |                       #
+#  |  Depends on 'fabric-resource-loader-v0' (-∞, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c487d.jar:             #
+#  +--------------------------------------------+                             #
+#  |  Loaded by  'quilted_fabric_loader'        |                             #
+#  |  Name     = 'Fabric Key Binding API (v1)'  |                             #
+#  |  ID       = 'fabric-key-binding-api-v1'    |                             #
+#  |  Version  = '1.1.1+b3ba9c487d'             |                             #
+#  |  LoadType = IF_POSSIBLE                    |                             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                             #
+#  +--------------------------------------------+                             #
+#                                                                             #
+#  /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e7d.jar:            #
+#  +---------------------------------------------+                            #
+#  |  Loaded by  'quilted_fabric_loader'         |                            #
+#  |  Name     = 'Fabric Lifecycle Events (v1)'  |                            #
+#  |  ID       = 'fabric-lifecycle-events-v1'    |                            #
+#  |  Version  = '2.6.9+33df5e6e7d'              |                            #
+#  |  LoadType = IF_POSSIBLE                     |                            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                            #
+#  +---------------------------------------------+                            #
+#                                                                             #
+#  /META-INF/jars/fabric-loot-api-v2-3.0.64+3f89f5a57d.jar:                   #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Loot API (v2)'               |                       #
+#  |  ID       = 'fabric-loot-api-v2'                 |                       #
+#  |  Version  = '3.0.64+3f89f5a57d'                  |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |                       #
+#  |  Depends on 'fabric-resource-loader-v0' (-∞, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-loot-api-v3-2.0.11+d17682157d.jar:                   #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Loot API (v3)'               |                       #
+#  |  ID       = 'fabric-loot-api-v3'                 |                       #
+#  |  Version  = '2.0.11+d17682157d'                  |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |                       #
+#  |  Depends on 'fabric-resource-loader-v0' (-∞, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-message-api-v1-6.1.7+3154c1c87d.jar:                 #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Message API (v1)'   |                                #
+#  |  ID       = 'fabric-message-api-v1'     |                                #
+#  |  Version  = '6.1.7+3154c1c87d'          |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)   |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-model-loading-api-v1-6.0.1+3ffd6ef07d.jar:           #
+#  +-----------------------------------------------+                          #
+#  |  Loaded by  'quilted_fabric_loader'           |                          #
+#  |  Name     = 'Fabric Model Loading API (v1)'   |                          #
+#  |  ID       = 'fabric-model-loading-api-v1'     |                          #
+#  |  Version  = '6.0.1+3ffd6ef07d'                |                          #
+#  |  LoadType = IF_POSSIBLE                       |                          #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)        |                          #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)         |                          #
+#  |  Depends on 'fabric-renderer-api-v1' (-∞, ∞)  |                          #
+#  +-----------------------------------------------+                          #
+#                                                                             #
+#  /META-INF/jars/fabric-networking-api-v1-5.0.13+d269470c7d.jar:             #
+#  +-------------------------------------------+                              #
+#  |  Loaded by  'quilted_fabric_loader'       |                              #
+#  |  Name     = 'Fabric Networking API (v1)'  |                              #
+#  |  ID       = 'fabric-networking-api-v1'    |                              #
+#  |  Version  = '5.0.13+d269470c7d'           |                              #
+#  |  LoadType = IF_POSSIBLE                   |                              #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)    |                              #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)     |                              #
+#  +-------------------------------------------+                              #
+#                                                                             #
+#  /META-INF/jars/fabric-object-builder-api-v1-21.1.24+9bce411b7d.jar:        #
+#  +------------------------------------------------+                         #
+#  |  Loaded by  'quilted_fabric_loader'            |                         #
+#  |  Name     = 'Fabric Object Builder API (v1)'   |                         #
+#  |  ID       = 'fabric-object-builder-api-v1'     |                         #
+#  |  Version  = '21.1.24+9bce411b7d'               |                         #
+#  |  LoadType = IF_POSSIBLE                        |                         #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)         |                         #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)          |                         #
+#  |  Depends on 'fabric-registry-sync-v0' (-∞, ∞)  |                         #
+#  +------------------------------------------------+                         #
+#                                                                             #
+#  /META-INF/jars/fabric-particles-v1-4.2.2+a0ee59a47d.jar:                   #
+#  +-------------------------------------------------+                        #
+#  |  Loaded by  'quilted_fabric_loader'             |                        #
+#  |  Name     = 'Fabric Particles (v1)'             |                        #
+#  |  ID       = 'fabric-particles-v1'               |                        #
+#  |  Version  = '4.2.2+a0ee59a47d'                  |                        #
+#  |  LoadType = IF_POSSIBLE                         |                        #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)          |                        #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)  |                        #
+#  +-------------------------------------------------+                        #
+#                                                                             #
+#  /META-INF/jars/fabric-recipe-api-v1-8.1.26+d17682157d.jar:                 #
+#  +-------------------------------------------------+                        #
+#  |  Loaded by  'quilted_fabric_loader'             |                        #
+#  |  Name     = 'Fabric Recipe API (v1)'            |                        #
+#  |  ID       = 'fabric-recipe-api-v1'              |                        #
+#  |  Version  = '8.1.26+d17682157d'                 |                        #
+#  |  LoadType = IF_POSSIBLE                         |                        #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)          |                        #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)  |                        #
+#  +-------------------------------------------------+                        #
+#                                                                             #
+#  /META-INF/jars/fabric-registry-sync-v0-6.1.41+679c8c5c7d.jar:              #
+#  +-------------------------------------------------+                        #
+#  |  Loaded by  'quilted_fabric_loader'             |                        #
+#  |  Name     = 'Fabric Registry Sync (v0)'         |                        #
+#  |  ID       = 'fabric-registry-sync-v0'           |                        #
+#  |  Version  = '6.1.41+679c8c5c7d'                 |                        #
+#  |  LoadType = IF_POSSIBLE                         |                        #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)          |                        #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)           |                        #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)  |                        #
+#  +-------------------------------------------------+                        #
+#                                                                             #
+#  /META-INF/jars/fabric-renderer-api-v1-7.1.2+c523dc837d.jar:                #
+#  +-------------------------------------------------------------+            #
+#  |  Loaded by  'quilted_fabric_loader'                         |            #
+#  |  Name     = 'Fabric Renderer API (v1)'                      |            #
+#  |  ID       = 'fabric-renderer-api-v1'                        |            #
+#  |  Version  = '7.1.2+c523dc837d'                              |            #
+#  |  LoadType = IF_POSSIBLE                                     |            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                      |            #
+#  |  Depends on 'minecraft' [1.21.5-beta.1, ∞)                  |            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)                       |            #
+#  |  Depends on 'fabric-rendering-v1' (-∞, ∞)                   |            #
+#  |  Depends on 'fabric-transitive-access-wideners-v1' (-∞, ∞)  |            #
+#  +-------------------------------------------------------------+            #
+#                                                                             #
+#  /META-INF/jars/fabric-renderer-indigo-4.0.20+c523dc837d.jar:               #
+#  +-----------------------------------------------+                          #
+#  |  Loaded by  'quilted_fabric_loader'           |                          #
+#  |  Name     = 'Fabric Renderer - Indigo'        |                          #
+#  |  ID       = 'fabric-renderer-indigo'          |                          #
+#  |  Version  = '4.0.20+c523dc837d'               |                          #
+#  |  LoadType = IF_POSSIBLE                       |                          #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)        |                          #
+#  |  Depends on 'minecraft' [1.21.5-beta.1, ∞)    |                          #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)         |                          #
+#  |  Depends on 'fabric-renderer-api-v1' (-∞, ∞)  |                          #
+#  +-----------------------------------------------+                          #
+#                                                                             #
+#  /META-INF/jars/fabric-rendering-fluids-v1-3.1.38+86b3ae577d.jar:           #
+#  +---------------------------------------------+                            #
+#  |  Loaded by  'quilted_fabric_loader'         |                            #
+#  |  Name     = 'Fabric Rendering Fluids (v1)'  |                            #
+#  |  ID       = 'fabric-rendering-fluids-v1'    |                            #
+#  |  Version  = '3.1.38+86b3ae577d'             |                            #
+#  |  LoadType = IF_POSSIBLE                     |                            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                            #
+#  +---------------------------------------------+                            #
+#                                                                             #
+#  /META-INF/jars/fabric-rendering-v1-16.0.1+328a75ba7d.jar:                  #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric Rendering (v1)'               |                      #
+#  |  ID       = 'fabric-rendering-v1'                 |                      #
+#  |  Version  = '16.0.1+328a75ba7d'                   |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)             |                      #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-resource-conditions-api-v1-5.0.28+33df5e6e7d.jar:    #
+#  +----------------------------------------------------+                     #
+#  |  Loaded by  'quilted_fabric_loader'                |                     #
+#  |  Name     = 'Fabric Resource Conditions API (v1)'  |                     #
+#  |  ID       = 'fabric-resource-conditions-api-v1'    |                     #
+#  |  Version  = '5.0.28+33df5e6e7d'                    |                     #
+#  |  LoadType = IF_POSSIBLE                            |                     #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)             |                     #
+#  +----------------------------------------------------+                     #
+#                                                                             #
+#  /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b27d.jar:             #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Resource Loader (v0)'        |                       #
+#  |  ID       = 'fabric-resource-loader-v0'          |                       #
+#  |  Version  = '3.2.2+3388a3b27d'                   |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-resource-loader-v1' (-∞, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-resource-loader-v1-1.0.2+225bca407d.jar:             #
+#  +--------------------------------------------+                             #
+#  |  Loaded by  'quilted_fabric_loader'        |                             #
+#  |  Name     = 'Fabric Resource Loader (v1)'  |                             #
+#  |  ID       = 'fabric-resource-loader-v1'    |                             #
+#  |  Version  = '1.0.2+225bca407d'             |                             #
+#  |  LoadType = IF_POSSIBLE                    |                             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                             #
+#  +--------------------------------------------+                             #
+#                                                                             #
+#  /META-INF/jars/fabric-screen-api-v1-3.1.0+9c82a7987d.jar:                  #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Screen API (v1)'    |                                #
+#  |  ID       = 'fabric-screen-api-v1'      |                                #
+#  |  Version  = '3.1.0+9c82a7987d'          |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)   |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-screen-handler-api-v1-1.3.150+d17682157d.jar:        #
+#  +-------------------------------------------------+                        #
+#  |  Loaded by  'quilted_fabric_loader'             |                        #
+#  |  Name     = 'Fabric Screen Handler API (v1)'    |                        #
+#  |  ID       = 'fabric-screen-handler-api-v1'      |                        #
+#  |  Version  = '1.3.150+d17682157d'                |                        #
+#  |  LoadType = IF_POSSIBLE                         |                        #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)          |                        #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)           |                        #
+#  |  Depends on 'fabric-networking-api-v1' (-∞, ∞)  |                        #
+#  +-------------------------------------------------+                        #
+#                                                                             #
+#  /META-INF/jars/fabric-serialization-api-v1-1.0.0+d857c9767d.jar:           #
+#  +----------------------------------------------+                           #
+#  |  Loaded by  'quilted_fabric_loader'          |                           #
+#  |  Name     = 'Fabric Serialization API (v1)'  |                           #
+#  |  ID       = 'fabric-serialization-api-v1'    |                           #
+#  |  Version  = '1.0.0+d857c9767d'               |                           #
+#  |  LoadType = IF_POSSIBLE                      |                           #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)       |                           #
+#  +----------------------------------------------+                           #
+#                                                                             #
+#  /META-INF/jars/fabric-sound-api-v1-1.0.45+328a75ba7d.jar:                  #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric Sound API (v1)'     |                                #
+#  |  ID       = 'fabric-sound-api-v1'       |                                #
+#  |  Version  = '1.0.45+328a75ba7d'         |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  |  Depends on 'minecraft' [1.19.2, ∞)     |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-tag-api-v1-1.2.10+2fa446b27d.jar:                    #
+#  +------------------------------------------------------------+             #
+#  |  Loaded by  'quilted_fabric_loader'                        |             #
+#  |  Name     = 'Fabric Tag API (v1)'                          |             #
+#  |  ID       = 'fabric-tag-api-v1'                            |             #
+#  |  Version  = '1.2.10+2fa446b27d'                            |             #
+#  |  LoadType = IF_POSSIBLE                                    |             #
+#  |  Provides   'fabric-client-tags-api-v1' 1.2.10+2fa446b27d  |             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                     |             #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)                      |             #
+#  |  Depends on 'fabric-resource-loader-v0' (-∞, ∞)            |             #
+#  +------------------------------------------------------------+             #
+#                                                                             #
+#  /META-INF/jars/fabric-transfer-api-v1-6.0.15+79ec2c127d.jar:               #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric Transfer API (v1)'            |                      #
+#  |  ID       = 'fabric-transfer-api-v1'              |                      #
+#  |  Version  = '6.0.15+79ec2c127d'                   |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'fabric-api-lookup-api-v1' (-∞, ∞)    |                      #
+#  |  Depends on 'fabric-rendering-fluids-v1' (-∞, ∞)  |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-transitive-access-wideners-v1-6.5.3+41eb43437d.jar:  #
+#  +-------------------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'                   |                  #
+#  |  Name     = 'Fabric Transitive Access Wideners (v1)'  |                  #
+#  |  ID       = 'fabric-transitive-access-wideners-v1'    |                  #
+#  |  Version  = '6.5.3+41eb43437d'                        |                  #
+#  |  LoadType = IF_POSSIBLE                               |                  #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                |                  #
+#  +-------------------------------------------------------+                  #
+#                                                                             #
+###############################################################################
+
+<mods>\fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar:
+#############################################################################
+#  Loaded by  'quilted_fabric_loader'                                       #
+#  Name     = 'Fabric Language Kotlin'                                      #
+#  ID       = 'fabric-language-kotlin'                                      #
+#  Version  = '1.13.8+kotlin.2.3.0'                                         #
+#  LoadType = IF_POSSIBLE                                                   #
+#  Depends on 'fabricloader' [0.16.9, ∞)                                    #
+#                                                                           #
+#  Contained Jars (13):                                                     #
+#                                                                           #
+#  /META-INF/jars/atomicfu-jvm-0.29.0.jar:                                  #
+#  +---------------------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'               |                    #
+#  |  Name     = 'atomicfu-jvm'                        |                    #
+#  |  ID       = 'org_jetbrains_kotlinx_atomicfu-jvm'  |                    #
+#  |  Version  = '0.29.0'                              |                    #
+#  |  LoadType = IF_POSSIBLE                           |                    #
+#  +---------------------------------------------------+                    #
+#                                                                           #
+#  /META-INF/jars/kotlin-reflect-2.3.0.jar:                                 #
+#  +----------------------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'                |                   #
+#  |  Name     = 'kotlin-reflect'                       |                   #
+#  |  ID       = 'org_jetbrains_kotlin_kotlin-reflect'  |                   #
+#  |  Version  = '2.3.0'                                |                   #
+#  |  LoadType = IF_POSSIBLE                            |                   #
+#  +----------------------------------------------------+                   #
+#                                                                           #
+#  /META-INF/jars/kotlin-stdlib-2.3.0.jar:                                  #
+#  +---------------------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'               |                    #
+#  |  Name     = 'kotlin-stdlib'                       |                    #
+#  |  ID       = 'org_jetbrains_kotlin_kotlin-stdlib'  |                    #
+#  |  Version  = '2.3.0'                               |                    #
+#  |  LoadType = IF_POSSIBLE                           |                    #
+#  +---------------------------------------------------+                    #
+#                                                                           #
+#  /META-INF/jars/kotlin-stdlib-jdk7-2.3.0.jar:                             #
+#  +--------------------------------------------------------+               #
+#  |  Loaded by  'quilted_fabric_loader'                    |               #
+#  |  Name     = 'kotlin-stdlib-jdk7'                       |               #
+#  |  ID       = 'org_jetbrains_kotlin_kotlin-stdlib-jdk7'  |               #
+#  |  Version  = '2.3.0'                                    |               #
+#  |  LoadType = IF_POSSIBLE                                |               #
+#  +--------------------------------------------------------+               #
+#                                                                           #
+#  /META-INF/jars/kotlin-stdlib-jdk8-2.3.0.jar:                             #
+#  +--------------------------------------------------------+               #
+#  |  Loaded by  'quilted_fabric_loader'                    |               #
+#  |  Name     = 'kotlin-stdlib-jdk8'                       |               #
+#  |  ID       = 'org_jetbrains_kotlin_kotlin-stdlib-jdk8'  |               #
+#  |  Version  = '2.3.0'                                    |               #
+#  |  LoadType = IF_POSSIBLE                                |               #
+#  +--------------------------------------------------------+               #
+#                                                                           #
+#  /META-INF/jars/kotlinx-coroutines-core-jvm-1.10.2.jar:                   #
+#  +------------------------------------------------------------------+     #
+#  |  Loaded by  'quilted_fabric_loader'                              |     #
+#  |  Name     = 'kotlinx-coroutines-core-jvm'                        |     #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm'  |     #
+#  |  Version  = '1.10.2'                                             |     #
+#  |  LoadType = IF_POSSIBLE                                          |     #
+#  +------------------------------------------------------------------+     #
+#                                                                           #
+#  /META-INF/jars/kotlinx-coroutines-jdk8-1.10.2.jar:                       #
+#  +--------------------------------------------------------------+         #
+#  |  Loaded by  'quilted_fabric_loader'                          |         #
+#  |  Name     = 'kotlinx-coroutines-jdk8'                        |         #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-coroutines-jdk8'  |         #
+#  |  Version  = '1.10.2'                                         |         #
+#  |  LoadType = IF_POSSIBLE                                      |         #
+#  +--------------------------------------------------------------+         #
+#                                                                           #
+#  /META-INF/jars/kotlinx-datetime-jvm-0.7.1.jar:                           #
+#  +-----------------------------------------------------------+            #
+#  |  Loaded by  'quilted_fabric_loader'                       |            #
+#  |  Name     = 'kotlinx-datetime-jvm'                        |            #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-datetime-jvm'  |            #
+#  |  Version  = '0.7.1'                                       |            #
+#  |  LoadType = IF_POSSIBLE                                   |            #
+#  +-----------------------------------------------------------+            #
+#                                                                           #
+#  /META-INF/jars/kotlinx-io-bytestring-jvm-0.8.2.jar:                      #
+#  +----------------------------------------------------------------+       #
+#  |  Loaded by  'quilted_fabric_loader'                            |       #
+#  |  Name     = 'kotlinx-io-bytestring-jvm'                        |       #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm'  |       #
+#  |  Version  = '0.8.2'                                            |       #
+#  |  LoadType = IF_POSSIBLE                                        |       #
+#  +----------------------------------------------------------------+       #
+#                                                                           #
+#  /META-INF/jars/kotlinx-io-core-jvm-0.8.2.jar:                            #
+#  +----------------------------------------------------------+             #
+#  |  Loaded by  'quilted_fabric_loader'                      |             #
+#  |  Name     = 'kotlinx-io-core-jvm'                        |             #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-io-core-jvm'  |             #
+#  |  Version  = '0.8.2'                                      |             #
+#  |  LoadType = IF_POSSIBLE                                  |             #
+#  +----------------------------------------------------------+             #
+#                                                                           #
+#  /META-INF/jars/kotlinx-serialization-cbor-jvm-1.9.0.jar:                 #
+#  +---------------------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                                 |  #
+#  |  Name     = 'kotlinx-serialization-cbor-jvm'                        |  #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm'  |  #
+#  |  Version  = '1.9.0'                                                 |  #
+#  |  LoadType = IF_POSSIBLE                                             |  #
+#  +---------------------------------------------------------------------+  #
+#                                                                           #
+#  /META-INF/jars/kotlinx-serialization-core-jvm-1.9.0.jar:                 #
+#  +---------------------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                                 |  #
+#  |  Name     = 'kotlinx-serialization-core-jvm'                        |  #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-serialization-core-jvm'  |  #
+#  |  Version  = '1.9.0'                                                 |  #
+#  |  LoadType = IF_POSSIBLE                                             |  #
+#  +---------------------------------------------------------------------+  #
+#                                                                           #
+#  /META-INF/jars/kotlinx-serialization-json-jvm-1.9.0.jar:                 #
+#  +---------------------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                                 |  #
+#  |  Name     = 'kotlinx-serialization-json-jvm'                        |  #
+#  |  ID       = 'org_jetbrains_kotlinx_kotlinx-serialization-json-jvm'  |  #
+#  |  Version  = '1.9.0'                                                 |  #
+#  |  LoadType = IF_POSSIBLE                                             |  #
+#  +---------------------------------------------------------------------+  #
+#                                                                           #
+#############################################################################
+
+<mods>\ferritecore-8.0.2-fabric.jar:
+############################################
+#  Loaded by  'quilted_fabric_loader'      #
+#  Name     = 'FerriteCore'                #
+#  ID       = 'ferritecore'                #
+#  Version  = '8.0.2'                      #
+#  LoadType = IF_POSSIBLE                  #
+#  Depends on 'fabricloader' [0.14.21, ∞)  #
+#  Depends on 'minecraft' [1.21.9, 1.22)   #
+#  Breaks  on 'hydrogen' (-∞, 0.3]         #
+############################################
+
+<mods>\Jade-1.21.9-Fabric-20.1.0.jar:
+##########################################
+#  Loaded by  'quilted_fabric_loader'    #
+#  Name     = 'Jade'                     #
+#  ID       = 'jade'                     #
+#  Version  = '20.1.0+fabric'            #
+#  LoadType = IF_POSSIBLE                #
+#  Depends on 'fabric-api' [0.133.5, ∞)  #
+#  Depends on 'minecraft' [1.21.9-, ∞)   #
+##########################################
+
+<mods>\modmenu-16.0.0-rc.2.jar:
+#####################################################################
+#  Loaded by  'quilted_fabric_loader'                               #
+#  Name     = 'Mod Menu'                                            #
+#  ID       = 'modmenu'                                             #
+#  Version  = '16.0.0-rc.2'                                         #
+#  LoadType = IF_POSSIBLE                                           #
+#  Depends on 'fabric-resource-loader-v0' (-∞, ∞)                   #
+#  Depends on 'fabric-screen-api-v1' (-∞, ∞)                        #
+#  Depends on 'fabric-key-binding-api-v1' (-∞, ∞)                   #
+#  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)                  #
+#  Depends on 'fabricloader' [0.17.2, ∞)                            #
+#  Depends on 'minecraft' [1.21.9-, ∞)                              #
+#                                                                   #
+#  Contained Jars (6):                                              #
+#                                                                   #
+#  /META-INF/jars/fabric-api-base-1.0.0+14b92d8987.jar:             #
+#  +-----------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'     |                      #
+#  |  Name     = 'Fabric API Base'           |                      #
+#  |  ID       = 'fabric-api-base'           |                      #
+#  |  Version  = '1.0.0+14b92d8987'          |                      #
+#  |  LoadType = IF_POSSIBLE                 |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                      #
+#  +-----------------------------------------+                      #
+#                                                                   #
+#  /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c4887.jar:   #
+#  +--------------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'        |                   #
+#  |  Name     = 'Fabric Key Binding API (v1)'  |                   #
+#  |  ID       = 'fabric-key-binding-api-v1'    |                   #
+#  |  Version  = '1.1.1+b3ba9c4887'             |                   #
+#  |  LoadType = IF_POSSIBLE                    |                   #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                   #
+#  +--------------------------------------------+                   #
+#                                                                   #
+#  /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e87.jar:  #
+#  +---------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'         |                  #
+#  |  Name     = 'Fabric Lifecycle Events (v1)'  |                  #
+#  |  ID       = 'fabric-lifecycle-events-v1'    |                  #
+#  |  Version  = '2.6.9+33df5e6e87'              |                  #
+#  |  LoadType = IF_POSSIBLE                     |                  #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                  #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                  #
+#  +---------------------------------------------+                  #
+#                                                                   #
+#  /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b287.jar:   #
+#  +--------------------------------------------------+             #
+#  |  Loaded by  'quilted_fabric_loader'              |             #
+#  |  Name     = 'Fabric Resource Loader (v0)'        |             #
+#  |  ID       = 'fabric-resource-loader-v0'          |             #
+#  |  Version  = '3.2.2+3388a3b287'                   |             #
+#  |  LoadType = IF_POSSIBLE                          |             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |             #
+#  |  Depends on 'fabric-resource-loader-v1' (-∞, ∞)  |             #
+#  +--------------------------------------------------+             #
+#                                                                   #
+#  /META-INF/jars/fabric-screen-api-v1-3.0.3+86b3ae5787.jar:        #
+#  +-----------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'     |                      #
+#  |  Name     = 'Fabric Screen API (v1)'    |                      #
+#  |  ID       = 'fabric-screen-api-v1'      |                      #
+#  |  Version  = '3.0.3+86b3ae5787'          |                      #
+#  |  LoadType = IF_POSSIBLE                 |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                      #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)   |                      #
+#  +-----------------------------------------+                      #
+#                                                                   #
+#  /META-INF/jars/placeholder-api-2.8.0+1.21.9.jar:                 #
+#  +---------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'         |                  #
+#  |  Name     = 'Placeholder API'               |                  #
+#  |  ID       = 'placeholder-api'               |                  #
+#  |  Version  = '2.8.0+1.21.9'                  |                  #
+#  |  LoadType = IF_POSSIBLE                     |                  #
+#  |  Depends on 'fabricloader' [0.16.10, ∞)     |                  #
+#  |  Depends on 'minecraft' [1.21.5-beta.3, ∞)  |                  #
+#  +---------------------------------------------+                  #
+#                                                                   #
+#####################################################################
+
+<mods>\notenoughanimations-fabric-1.10.6-mc1.21.10.jar:
+##################################################################
+#  Loaded by  'quilted_fabric_loader'                            #
+#  Name     = 'NotEnoughAnimations'                              #
+#  ID       = 'notenoughanimations'                              #
+#  Version  = '1.10.6'                                           #
+#  LoadType = IF_POSSIBLE                                        #
+#  Depends on 'minecraft' [1.21-, 1.22-)                         #
+#  Depends on 'fabric-api' (-∞, ∞)                               #
+#  Breaks  on 'tlskincape' (-∞, ∞)                               #
+#                                                                #
+#  Contained Jars (2):                                           #
+#                                                                #
+#  /META-INF/jars/TRansition-1.0.7-1.21.10-fabric-SNAPSHOT.jar:  #
+#  +-----------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'     |                   #
+#  |  Name     = 'TRansition'                |                   #
+#  |  ID       = 'transition'                |                   #
+#  |  Version  = '1.0.7'                     |                   #
+#  |  LoadType = IF_POSSIBLE                 |                   #
+#  |  Depends on 'minecraft' [1.21-, 1.22-)  |                   #
+#  |  Depends on 'fabric-api' (-∞, ∞)        |                   #
+#  |  Breaks  on 'tlskincape' (-∞, ∞)        |                   #
+#  +-----------------------------------------+                   #
+#                                                                #
+#  /META-INF/jars/TRender-1.0.8-1.21.10-fabric-SNAPSHOT.jar:     #
+#  +-----------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'     |                   #
+#  |  Name     = 'TRender'                   |                   #
+#  |  ID       = 'trender'                   |                   #
+#  |  Version  = '1.0.8'                     |                   #
+#  |  LoadType = IF_POSSIBLE                 |                   #
+#  |  Depends on 'minecraft' [1.21-, 1.22-)  |                   #
+#  |  Depends on 'fabric-api' (-∞, ∞)        |                   #
+#  |  Breaks  on 'tlskincape' (-∞, ∞)        |                   #
+#  +-----------------------------------------+                   #
+#                                                                #
+##################################################################
+
+<mods>\placeholder-api-2.8.1+1.21.10.jar:
+###############################################
+#  Loaded by  'quilted_fabric_loader'         #
+#  Name     = 'Placeholder API'               #
+#  ID       = 'placeholder-api'               #
+#  Version  = '2.8.1+1.21.10'                 #
+#  LoadType = IF_POSSIBLE                     #
+#  Depends on 'fabricloader' [0.16.10, ∞)     #
+#  Depends on 'minecraft' [1.21.5-beta.3, ∞)  #
+###############################################
+
+<mods>\sodium-fabric-0.7.3+mc1.21.10.jar:
+###############################################################################
+#  Loaded by  'quilted_fabric_loader'                                         #
+#  Name     = 'Sodium'                                                        #
+#  ID       = 'sodium'                                                        #
+#  Version  = '0.7.3+mc1.21.10'                                               #
+#  LoadType = IF_POSSIBLE                                                     #
+#  Provides   'indium' 0.7.3+mc1.21.10                                        #
+#  Depends on 'fabricloader' [0.16.0, ∞)                                      #
+#  Depends on 'fabric-block-view-api-v2' (-∞, ∞)                              #
+#  Depends on 'fabric-renderer-api-v1' (-∞, ∞)                                #
+#  Depends on 'fabric-rendering-fluids-v1' [2.0.0, ∞)                         #
+#  Depends on 'fabric-resource-loader-v0' (-∞, ∞)                             #
+#  Breaks  on 'embeddium' (-∞, ∞)                                             #
+#  Breaks  on 'optifabric' (-∞, ∞)                                            #
+#  Breaks  on 'canvas' (-∞, ∞)                                                #
+#  Breaks  on 'vulkanmod' (-∞, ∞)                                             #
+#  Breaks  on 'sodium-blendingregistry' (-∞, ∞)                               #
+#  Breaks  on 'ocrenderfix_sodium' (-∞, ∞)                                    #
+#  Breaks  on 'betterfpsdist' (-∞, 1.21-4.5]                                  #
+#  Breaks  on 'bobby' (-∞, 5.2.4)                                             #
+#  Breaks  on 'chunksfadein' (-∞, 2.0.2-1.21.2)                               #
+#  Breaks  on 'cull-less-leaves' (-∞, 1.3.0]                                  #
+#  Breaks  on 'cullleaves' (-∞, 3.4.0-fabric]                                 #
+#  Breaks  on 'custom_hud' (-∞, 3.4.2)                                        #
+#  Breaks  on 'farsight' (-∞, 1.21-4.3]                                       #
+#  Breaks  on 'iceberg' (-∞, 1.2.7)                                           #
+#  Breaks  on 'iris' (-∞, 1.8.1)                                              #
+#  Breaks  on 'movingelevators' (-∞, 1.4.7]                                   #
+#  Breaks  on 'notenoughcrashes' (-∞, 4.4.8)                                  #
+#  Breaks  on 'noxesium' (-∞, 2.3.3)                                          #
+#  Breaks  on 'reeses-sodium-options' (-∞, 1.8.0)                             #
+#  Breaks  on 'sodium-extra' (-∞, 0.6.0)                                      #
+#  Breaks  on 'sspb' (-∞, 4.0.0)                                              #
+#  Breaks  on 'moreculling' (-∞, 1.0.0)                                       #
+#  Breaks  on 'simply-no-shading' (-∞, 7.6.2)                                 #
+#  Breaks  on 'betterend' (-∞, 21.0.11]                                       #
+#                                                                             #
+#  Contained Jars (9):                                                        #
+#                                                                             #
+#  /META-INF/jars/fabric-api-base-1.0.0+14b92d896f.jar:                       #
+#  +-----------------------------------------+                                #
+#  |  Loaded by  'quilted_fabric_loader'     |                                #
+#  |  Name     = 'Fabric API Base'           |                                #
+#  |  ID       = 'fabric-api-base'           |                                #
+#  |  Version  = '1.0.0+14b92d896f'          |                                #
+#  |  LoadType = IF_POSSIBLE                 |                                #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                                #
+#  +-----------------------------------------+                                #
+#                                                                             #
+#  /META-INF/jars/fabric-block-view-api-v2-1.0.34+e4fd1b926f.jar:             #
+#  +------------------------------------------+                               #
+#  |  Loaded by  'quilted_fabric_loader'      |                               #
+#  |  Name     = 'Fabric BlockView API (v2)'  |                               #
+#  |  ID       = 'fabric-block-view-api-v2'   |                               #
+#  |  Version  = '1.0.34+e4fd1b926f'          |                               #
+#  |  LoadType = IF_POSSIBLE                  |                               #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)   |                               #
+#  +------------------------------------------+                               #
+#                                                                             #
+#  /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e6f.jar:            #
+#  +---------------------------------------------+                            #
+#  |  Loaded by  'quilted_fabric_loader'         |                            #
+#  |  Name     = 'Fabric Lifecycle Events (v1)'  |                            #
+#  |  ID       = 'fabric-lifecycle-events-v1'    |                            #
+#  |  Version  = '2.6.9+33df5e6e6f'              |                            #
+#  |  LoadType = IF_POSSIBLE                     |                            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                            #
+#  +---------------------------------------------+                            #
+#                                                                             #
+#  /META-INF/jars/fabric-renderer-api-v1-7.1.2+328a75ba6f.jar:                #
+#  +-------------------------------------------------------------+            #
+#  |  Loaded by  'quilted_fabric_loader'                         |            #
+#  |  Name     = 'Fabric Renderer API (v1)'                      |            #
+#  |  ID       = 'fabric-renderer-api-v1'                        |            #
+#  |  Version  = '7.1.2+328a75ba6f'                              |            #
+#  |  LoadType = IF_POSSIBLE                                     |            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                      |            #
+#  |  Depends on 'minecraft' [1.21.5-beta.1, ∞)                  |            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)                       |            #
+#  |  Depends on 'fabric-rendering-v1' (-∞, ∞)                   |            #
+#  |  Depends on 'fabric-transitive-access-wideners-v1' (-∞, ∞)  |            #
+#  +-------------------------------------------------------------+            #
+#                                                                             #
+#  /META-INF/jars/fabric-rendering-fluids-v1-3.1.38+86b3ae576f.jar:           #
+#  +---------------------------------------------+                            #
+#  |  Loaded by  'quilted_fabric_loader'         |                            #
+#  |  Name     = 'Fabric Rendering Fluids (v1)'  |                            #
+#  |  ID       = 'fabric-rendering-fluids-v1'    |                            #
+#  |  Version  = '3.1.38+86b3ae576f'             |                            #
+#  |  LoadType = IF_POSSIBLE                     |                            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                            #
+#  +---------------------------------------------+                            #
+#                                                                             #
+#  /META-INF/jars/fabric-rendering-v1-16.0.2+91152d886f.jar:                  #
+#  +---------------------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'               |                      #
+#  |  Name     = 'Fabric Rendering (v1)'               |                      #
+#  |  ID       = 'fabric-rendering-v1'                 |                      #
+#  |  Version  = '16.0.2+91152d886f'                   |                      #
+#  |  LoadType = IF_POSSIBLE                           |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |                      #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)             |                      #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |                      #
+#  +---------------------------------------------------+                      #
+#                                                                             #
+#  /META-INF/jars/fabric-resource-loader-v0-3.2.3+3388a3b26f.jar:             #
+#  +--------------------------------------------------+                       #
+#  |  Loaded by  'quilted_fabric_loader'              |                       #
+#  |  Name     = 'Fabric Resource Loader (v0)'        |                       #
+#  |  ID       = 'fabric-resource-loader-v0'          |                       #
+#  |  Version  = '3.2.3+3388a3b26f'                   |                       #
+#  |  LoadType = IF_POSSIBLE                          |                       #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |                       #
+#  |  Depends on 'fabric-resource-loader-v1' (-∞, ∞)  |                       #
+#  +--------------------------------------------------+                       #
+#                                                                             #
+#  /META-INF/jars/fabric-resource-loader-v1-1.0.3+8cc86c156f.jar:             #
+#  +--------------------------------------------+                             #
+#  |  Loaded by  'quilted_fabric_loader'        |                             #
+#  |  Name     = 'Fabric Resource Loader (v1)'  |                             #
+#  |  ID       = 'fabric-resource-loader-v1'    |                             #
+#  |  Version  = '1.0.3+8cc86c156f'             |                             #
+#  |  LoadType = IF_POSSIBLE                    |                             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                             #
+#  +--------------------------------------------+                             #
+#                                                                             #
+#  /META-INF/jars/fabric-transitive-access-wideners-v1-6.5.3+41eb43436f.jar:  #
+#  +-------------------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'                   |                  #
+#  |  Name     = 'Fabric Transitive Access Wideners (v1)'  |                  #
+#  |  ID       = 'fabric-transitive-access-wideners-v1'    |                  #
+#  |  Version  = '6.5.3+41eb43436f'                        |                  #
+#  |  LoadType = IF_POSSIBLE                               |                  #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                |                  #
+#  +-------------------------------------------------------+                  #
+#                                                                             #
+###############################################################################
+
+<mods>\sound-physics-remastered-fabric-1.21.9-1.5.1.jar:
+###############################################
+#  Loaded by  'quilted_fabric_loader'         #
+#  Name     = 'Sound Physics Remastered'      #
+#  ID       = 'sound_physics_remastered'      #
+#  Version  = '1.21.9-1.5.1'                  #
+#  LoadType = IF_POSSIBLE                     #
+#  Depends on 'fabricloader' [0.17.0, ∞)      #
+#  Depends on 'minecraft' [1.21.9, 1.21.9]    #
+#  Depends on 'java' [21, ∞)                  #
+#  Breaks  on 'soundphysics' (-∞, ∞)          #
+#  Breaks  on 'voicechat' (-∞, 1.21.9-2.3.0)  #
+###############################################
+
+<mods>\voicechat-fabric-1.21.9-2.6.4.jar:
+#####################################################################
+#  Loaded by  'quilted_fabric_loader'                               #
+#  Name     = 'Simple Voice Chat'                                   #
+#  ID       = 'voicechat'                                           #
+#  Version  = '1.21.9-2.6.4'                                        #
+#  LoadType = IF_POSSIBLE                                           #
+#  Depends on 'fabricloader' [0.17.2, ∞)                            #
+#  Depends on 'minecraft' [1.21.9, 1.21.9]                          #
+#  Depends on 'java' [21, ∞)                                        #
+#  Breaks  on 'fabric-api' (-∞, 0.133.14+1.21.9)                    #
+#                                                                   #
+#  Contained Jars (9):                                              #
+#                                                                   #
+#  /META-INF/jars/fabric-api-base-1.0.0+14b92d8987.jar:             #
+#  +-----------------------------------------+                      #
+#  |  Loaded by  'quilted_fabric_loader'     |                      #
+#  |  Name     = 'Fabric API Base'           |                      #
+#  |  ID       = 'fabric-api-base'           |                      #
+#  |  Version  = '1.0.0+14b92d8987'          |                      #
+#  |  LoadType = IF_POSSIBLE                 |                      #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)  |                      #
+#  +-----------------------------------------+                      #
+#                                                                   #
+#  /META-INF/jars/fabric-command-api-v2-2.3.7+328a75ba87.jar:       #
+#  +--------------------------------------------------+             #
+#  |  Loaded by  'quilted_fabric_loader'              |             #
+#  |  Name     = 'Fabric Command API (v2)'            |             #
+#  |  ID       = 'fabric-command-api-v2'              |             #
+#  |  Version  = '2.3.7+328a75ba87'                   |             #
+#  |  LoadType = IF_POSSIBLE                          |             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |             #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)            |             #
+#  |  Depends on 'minecraft' (1.19-alpha.22.11.a, ∞)  |             #
+#  +--------------------------------------------------+             #
+#                                                                   #
+#  /META-INF/jars/fabric-key-binding-api-v1-1.1.1+b3ba9c4887.jar:   #
+#  +--------------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'        |                   #
+#  |  Name     = 'Fabric Key Binding API (v1)'  |                   #
+#  |  ID       = 'fabric-key-binding-api-v1'    |                   #
+#  |  Version  = '1.1.1+b3ba9c4887'             |                   #
+#  |  LoadType = IF_POSSIBLE                    |                   #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                   #
+#  +--------------------------------------------+                   #
+#                                                                   #
+#  /META-INF/jars/fabric-lifecycle-events-v1-2.6.9+33df5e6e87.jar:  #
+#  +---------------------------------------------+                  #
+#  |  Loaded by  'quilted_fabric_loader'         |                  #
+#  |  Name     = 'Fabric Lifecycle Events (v1)'  |                  #
+#  |  ID       = 'fabric-lifecycle-events-v1'    |                  #
+#  |  Version  = '2.6.9+33df5e6e87'              |                  #
+#  |  LoadType = IF_POSSIBLE                     |                  #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)      |                  #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)       |                  #
+#  +---------------------------------------------+                  #
+#                                                                   #
+#  /META-INF/jars/fabric-networking-api-v1-5.0.12+86b3ae5787.jar:   #
+#  +-------------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'       |                    #
+#  |  Name     = 'Fabric Networking API (v1)'  |                    #
+#  |  ID       = 'fabric-networking-api-v1'    |                    #
+#  |  Version  = '5.0.12+86b3ae5787'           |                    #
+#  |  LoadType = IF_POSSIBLE                   |                    #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)    |                    #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)     |                    #
+#  +-------------------------------------------+                    #
+#                                                                   #
+#  /META-INF/jars/fabric-rendering-v1-16.0.1+328a75ba87.jar:        #
+#  +---------------------------------------------------+            #
+#  |  Loaded by  'quilted_fabric_loader'               |            #
+#  |  Name     = 'Fabric Rendering (v1)'               |            #
+#  |  ID       = 'fabric-rendering-v1'                 |            #
+#  |  Version  = '16.0.1+328a75ba87'                   |            #
+#  |  LoadType = IF_POSSIBLE                           |            #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)            |            #
+#  |  Depends on 'fabric-api-base' (-∞, ∞)             |            #
+#  |  Depends on 'fabric-lifecycle-events-v1' (-∞, ∞)  |            #
+#  +---------------------------------------------------+            #
+#                                                                   #
+#  /META-INF/jars/fabric-resource-loader-v0-3.2.2+3388a3b287.jar:   #
+#  +--------------------------------------------------+             #
+#  |  Loaded by  'quilted_fabric_loader'              |             #
+#  |  Name     = 'Fabric Resource Loader (v0)'        |             #
+#  |  ID       = 'fabric-resource-loader-v0'          |             #
+#  |  Version  = '3.2.2+3388a3b287'                   |             #
+#  |  LoadType = IF_POSSIBLE                          |             #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)           |             #
+#  |  Depends on 'fabric-resource-loader-v1' (-∞, ∞)  |             #
+#  +--------------------------------------------------+             #
+#                                                                   #
+#  /META-INF/jars/fabric-resource-loader-v1-1.0.2+225bca4087.jar:   #
+#  +--------------------------------------------+                   #
+#  |  Loaded by  'quilted_fabric_loader'        |                   #
+#  |  Name     = 'Fabric Resource Loader (v1)'  |                   #
+#  |  ID       = 'fabric-resource-loader-v1'    |                   #
+#  |  Version  = '1.0.2+225bca4087'             |                   #
+#  |  LoadType = IF_POSSIBLE                    |                   #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)     |                   #
+#  +--------------------------------------------+                   #
+#                                                                   #
+#  /META-INF/jars/voicechat-api-2.6.0.jar:                          #
+#  +--------------------------------------+                         #
+#  |  Loaded by  'quilted_fabric_loader'  |                         #
+#  |  Name     = 'Simple Voice Chat API'  |                         #
+#  |  ID       = 'voicechat_api'          |                         #
+#  |  Version  = '2.6.0'                  |                         #
+#  |  LoadType = IF_POSSIBLE              |                         #
+#  +--------------------------------------+                         #
+#                                                                   #
+#####################################################################
+
+<mods>\yet_another_config_lib_v3-3.8.1+1.21.10-fabric.jar:
+###################################################################
+#  Loaded by  'quilted_fabric_loader'                             #
+#  Name     = 'YetAnotherConfigLib'                               #
+#  ID       = 'yet_another_config_lib_v3'                         #
+#  Version  = '3.8.1+1.21.10-fabric'                              #
+#  LoadType = IF_POSSIBLE                                         #
+#  Depends on 'fabricloader' [0.17.0, ∞)                          #
+#  Depends on 'minecraft' [1.21.9, 1.22-)                         #
+#  Depends on 'java' [17, ∞)                                      #
+#  Depends on 'fabric-api' [0.138.3+1.21.10, ∞)                   #
+#                                                                 #
+#  Contained Jars (8):                                            #
+#                                                                 #
+#  /META-INF/jars/common-image-3.12.0.jar:                        #
+#  +------------------------------------------------------+       #
+#  |  Loaded by  'quilted_fabric_loader'                  |       #
+#  |  Name     = 'common-image'                           |       #
+#  |  ID       = 'com_twelvemonkeys_common_common-image'  |       #
+#  |  Version  = '3.12.0'                                 |       #
+#  |  LoadType = IF_POSSIBLE                              |       #
+#  +------------------------------------------------------+       #
+#                                                                 #
+#  /META-INF/jars/common-io-3.12.0.jar:                           #
+#  +---------------------------------------------------+          #
+#  |  Loaded by  'quilted_fabric_loader'               |          #
+#  |  Name     = 'common-io'                           |          #
+#  |  ID       = 'com_twelvemonkeys_common_common-io'  |          #
+#  |  Version  = '3.12.0'                              |          #
+#  |  LoadType = IF_POSSIBLE                           |          #
+#  +---------------------------------------------------+          #
+#                                                                 #
+#  /META-INF/jars/common-lang-3.12.0.jar:                         #
+#  +-----------------------------------------------------+        #
+#  |  Loaded by  'quilted_fabric_loader'                 |        #
+#  |  Name     = 'common-lang'                           |        #
+#  |  ID       = 'com_twelvemonkeys_common_common-lang'  |        #
+#  |  Version  = '3.12.0'                                |        #
+#  |  LoadType = IF_POSSIBLE                             |        #
+#  +-----------------------------------------------------+        #
+#                                                                 #
+#  /META-INF/jars/gson-0.2.1.jar:                                 #
+#  +-----------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'     |                    #
+#  |  Name     = 'gson'                      |                    #
+#  |  ID       = 'org_quiltmc_parsers_gson'  |                    #
+#  |  Version  = '0.2.1'                     |                    #
+#  |  LoadType = IF_POSSIBLE                 |                    #
+#  +-----------------------------------------+                    #
+#                                                                 #
+#  /META-INF/jars/imageio-core-3.12.0.jar:                        #
+#  +-------------------------------------------------------+      #
+#  |  Loaded by  'quilted_fabric_loader'                   |      #
+#  |  Name     = 'imageio-core'                            |      #
+#  |  ID       = 'com_twelvemonkeys_imageio_imageio-core'  |      #
+#  |  Version  = '3.12.0'                                  |      #
+#  |  LoadType = IF_POSSIBLE                               |      #
+#  +-------------------------------------------------------+      #
+#                                                                 #
+#  /META-INF/jars/imageio-metadata-3.12.0.jar:                    #
+#  +-----------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                       |  #
+#  |  Name     = 'imageio-metadata'                            |  #
+#  |  ID       = 'com_twelvemonkeys_imageio_imageio-metadata'  |  #
+#  |  Version  = '3.12.0'                                      |  #
+#  |  LoadType = IF_POSSIBLE                                   |  #
+#  +-----------------------------------------------------------+  #
+#                                                                 #
+#  /META-INF/jars/imageio-webp-3.12.0.jar:                        #
+#  +-------------------------------------------------------+      #
+#  |  Loaded by  'quilted_fabric_loader'                   |      #
+#  |  Name     = 'imageio-webp'                            |      #
+#  |  ID       = 'com_twelvemonkeys_imageio_imageio-webp'  |      #
+#  |  Version  = '3.12.0'                                  |      #
+#  |  LoadType = IF_POSSIBLE                               |      #
+#  +-------------------------------------------------------+      #
+#                                                                 #
+#  /META-INF/jars/json-0.2.1.jar:                                 #
+#  +-----------------------------------------+                    #
+#  |  Loaded by  'quilted_fabric_loader'     |                    #
+#  |  Name     = 'json'                      |                    #
+#  |  ID       = 'org_quiltmc_parsers_json'  |                    #
+#  |  Version  = '0.2.1'                     |                    #
+#  |  LoadType = IF_POSSIBLE                 |                    #
+#  +-----------------------------------------+                    #
+#                                                                 #
+###################################################################
+
+<mods>\Zoomify-2.14.6+1.21.9.jar:
+#########################################################################
+#  Loaded by  'quilted_fabric_loader'                                   #
+#  Name     = 'Zoomify'                                                 #
+#  ID       = 'zoomify'                                                 #
+#  Version  = '2.14.6+1.21.9'                                           #
+#  LoadType = IF_POSSIBLE                                               #
+#  Depends on 'fabricloader' [0.16.0, ∞)                                #
+#  Depends on 'fabric-language-kotlin' [1.13.4+kotlin.2.2.0, ∞)         #
+#  Depends on 'minecraft' [1.21.9, 1.22-)                               #
+#  Depends on 'java' [17, ∞)                                            #
+#  Depends on 'yet_another_config_lib_v3' [3.6.6, ∞)                    #
+#  Breaks  on 'optifabric' (-∞, ∞)                                      #
+#  Breaks  on 'controlify' (-∞, 2.0.0-beta.9)                           #
+#                                                                       #
+#  Contained Jars (2):                                                  #
+#                                                                       #
+#  /META-INF/jars/ktoml-core-jvm-0.5.2.jar:                             #
+#  +----------------------------------------------+                     #
+#  |  Loaded by  'quilted_fabric_loader'          |                     #
+#  |  Name     = 'ktoml-core-jvm'                 |                     #
+#  |  ID       = 'com_akuleshov7_ktoml-core-jvm'  |                     #
+#  |  Version  = '0.5.2'                          |                     #
+#  |  LoadType = IF_POSSIBLE                      |                     #
+#  +----------------------------------------------+                     #
+#                                                                       #
+#  /META-INF/jars/yet-another-config-lib-3.8.0+1.21.9-fabric.jar:       #
+#  +-----------------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                             |  #
+#  |  Name     = 'YetAnotherConfigLib'                               |  #
+#  |  ID       = 'yet_another_config_lib_v3'                         |  #
+#  |  Version  = '3.8.0+1.21.9-fabric'                               |  #
+#  |  LoadType = IF_POSSIBLE                                         |  #
+#  |  Depends on 'fabricloader' [0.17.0, ∞)                          |  #
+#  |  Depends on 'minecraft' [1.21.9-, 1.22-)                        |  #
+#  |  Depends on 'java' [17, ∞)                                      |  #
+#  |  Depends on 'fabric-api' [0.133.7+1.21.9, ∞)                    |  #
+#  |                                                                 |  #
+#  |  Contained Jars (8):                                            |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/common-image-3.12.0.jar:                        |  #
+#  |  ........................................................       |  #
+#  |  :  Loaded by  'quilted_fabric_loader'                  :       |  #
+#  |  :  Name     = 'common-image'                           :       |  #
+#  |  :  ID       = 'com_twelvemonkeys_common_common-image'  :       |  #
+#  |  :  Version  = '3.12.0'                                 :       |  #
+#  |  :  LoadType = IF_POSSIBLE                              :       |  #
+#  |  :......................................................:       |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/common-io-3.12.0.jar:                           |  #
+#  |  .....................................................          |  #
+#  |  :  Loaded by  'quilted_fabric_loader'               :          |  #
+#  |  :  Name     = 'common-io'                           :          |  #
+#  |  :  ID       = 'com_twelvemonkeys_common_common-io'  :          |  #
+#  |  :  Version  = '3.12.0'                              :          |  #
+#  |  :  LoadType = IF_POSSIBLE                           :          |  #
+#  |  :...................................................:          |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/common-lang-3.12.0.jar:                         |  #
+#  |  .......................................................        |  #
+#  |  :  Loaded by  'quilted_fabric_loader'                 :        |  #
+#  |  :  Name     = 'common-lang'                           :        |  #
+#  |  :  ID       = 'com_twelvemonkeys_common_common-lang'  :        |  #
+#  |  :  Version  = '3.12.0'                                :        |  #
+#  |  :  LoadType = IF_POSSIBLE                             :        |  #
+#  |  :.....................................................:        |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/gson-0.2.1.jar:                                 |  #
+#  |  ...........................................                    |  #
+#  |  :  Loaded by  'quilted_fabric_loader'     :                    |  #
+#  |  :  Name     = 'gson'                      :                    |  #
+#  |  :  ID       = 'org_quiltmc_parsers_gson'  :                    |  #
+#  |  :  Version  = '0.2.1'                     :                    |  #
+#  |  :  LoadType = IF_POSSIBLE                 :                    |  #
+#  |  :.........................................:                    |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/imageio-core-3.12.0.jar:                        |  #
+#  |  .........................................................      |  #
+#  |  :  Loaded by  'quilted_fabric_loader'                   :      |  #
+#  |  :  Name     = 'imageio-core'                            :      |  #
+#  |  :  ID       = 'com_twelvemonkeys_imageio_imageio-core'  :      |  #
+#  |  :  Version  = '3.12.0'                                  :      |  #
+#  |  :  LoadType = IF_POSSIBLE                               :      |  #
+#  |  :.......................................................:      |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/imageio-metadata-3.12.0.jar:                    |  #
+#  |  .............................................................  |  #
+#  |  :  Loaded by  'quilted_fabric_loader'                       :  |  #
+#  |  :  Name     = 'imageio-metadata'                            :  |  #
+#  |  :  ID       = 'com_twelvemonkeys_imageio_imageio-metadata'  :  |  #
+#  |  :  Version  = '3.12.0'                                      :  |  #
+#  |  :  LoadType = IF_POSSIBLE                                   :  |  #
+#  |  :...........................................................:  |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/imageio-webp-3.12.0.jar:                        |  #
+#  |  .........................................................      |  #
+#  |  :  Loaded by  'quilted_fabric_loader'                   :      |  #
+#  |  :  Name     = 'imageio-webp'                            :      |  #
+#  |  :  ID       = 'com_twelvemonkeys_imageio_imageio-webp'  :      |  #
+#  |  :  Version  = '3.12.0'                                  :      |  #
+#  |  :  LoadType = IF_POSSIBLE                               :      |  #
+#  |  :.......................................................:      |  #
+#  |                                                                 |  #
+#  |  /META-INF/jars/json-0.2.1.jar:                                 |  #
+#  |  ...........................................                    |  #
+#  |  :  Loaded by  'quilted_fabric_loader'     :                    |  #
+#  |  :  Name     = 'json'                      :                    |  #
+#  |  :  ID       = 'org_quiltmc_parsers_json'  :                    |  #
+#  |  :  Version  = '0.2.1'                     :                    |  #
+#  |  :  LoadType = IF_POSSIBLE                 :                    |  #
+#  |  :.........................................:                    |  #
+#  |                                                                 |  #
+#  +-----------------------------------------------------------------+  #
+#                                                                       #
+#########################################################################
+
+<user>\AppData\Roaming\PrismLauncher\java\java-runtime-delta:
+###########################################
+#  Loaded by  'quilt_loader'              #
+#  Name     = 'OpenJDK 64-Bit Server VM'  #
+#  ID       = 'java'                      #
+#  Version  = '21'                        #
+#  LoadType = IF_REQUIRED                 #
+###########################################
+
+<user>\AppData\Roaming\PrismLauncher\libraries\org\quiltmc\quilt-loader\0.29.2\quilt-loader-0.29.2.jar:
+###############################################################
+#  Loaded by  'quilt_loader'                                  #
+#  Name     = 'Quilt Loader'                                  #
+#  ID       = 'quilt_loader'                                  #
+#  Version  = '0.29.2'                                        #
+#  LoadType = IF_REQUIRED                                     #
+#  Provides   'fabricloader' 0.17.2                           #
+#  Depends on 'mixinextras' (-∞, ∞)                           #
+#                                                             #
+#  Contained Jars (1):                                        #
+#                                                             #
+#  /META-INF/jars/mixinextras-fabric-0.5.0.jar:               #
+#  +-------------------------------------------------------+  #
+#  |  Loaded by  'quilted_fabric_loader'                   |  #
+#  |  Name     = 'MixinExtras'                             |  #
+#  |  ID       = 'mixinextras'                             |  #
+#  |  Version  = '0.5.0'                                   |  #
+#  |  LoadType = IF_POSSIBLE                               |  #
+#  |  Provides   'com_github_llamalad7_mixinextras' 0.5.0  |  #
+#  |  Depends on 'fabricloader' [0.14.25, ∞)               |  #
+#  +-------------------------------------------------------+  #
+#                                                             #
+###############################################################
+
+
+
+---- end of report ----
