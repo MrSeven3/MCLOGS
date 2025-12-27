@@ -40,11 +40,20 @@ def checkImprovedCrashReports(file_path) -> dict:
         else:
             file.close()
             return {"isImproved":False,"improvedReport":None}
+    return None
 
-print(str(checkImprovedCrashReports("examples/neoforge_example_crash_report.txt")))
+def checkSinytraConnectorPresence(file_path) -> bool:
+    SINYTRA_CONNECTOR_STRING = "SINYTRA CONNECTOR IS PRESENT!\n"
+
+    file = open(file_path, "r", errors="ignore")
+    for i,line in enumerate(file):
+        if line == SINYTRA_CONNECTOR_STRING:
+            return True
+    return False
+
 
 class TestImprovedCrashReports:
-    def testCheckImprovedCrash(self): #should detect an improved crash
+    def testCheckImprovedCrash_Present(self): #should detect an improved crash
         result = checkImprovedCrashReports("examples/neoforge_example_crash_report.txt")
         assert result['isImproved'] == True
         assert result['improvedReport'] != "" or result['improvedReport'] is not None
@@ -52,3 +61,10 @@ class TestImprovedCrashReports:
         result = checkImprovedCrashReports("examples/fabric_example_crash_report.txt")
         assert result['isImproved'] == False
         assert result['improvedReport'] is None
+class TestSinytraConnectorPresence:
+    def testCheckSinytraConnectorPresence_Present(self):
+        result = checkSinytraConnectorPresence("examples/neoforge_example_crash_report.txt")
+        assert result == True
+    def testCheckSinytraConnectorPresence_NotPresent(self):
+        result = checkSinytraConnectorPresence("examples/forge_example_crash_report.txt")
+        assert result == False
