@@ -69,7 +69,7 @@ def crashReportBasicInfoGatherer(file_path:str):
     gameVersions = {"loader": loader, "loaderVersion": loaderVer, "minecraftVersion": minecraftVer,"isCrashReport":True}
     return gameVersions
 
-def checkGameVersions(file_path:str): #gets all basic versions from a log file, including modloader, modloader version, and minecraft version
+def checkGameVersions(filePath:str): #gets all basic versions from a log file, including modloader, modloader version, and minecraft version
     NEOFORGE_LOADER_DETECT_REGEX = r"\t{2}NeoForge.*"
     NEOFORGE_LOADER_VERSION_EXTRACT_REGEX = r"\t{2}NeoForge ([0-9]{1,2}\.[0-9]{1,3}\.[0-9]{1,4}).*"
     NEOFORGE_MC_VERSION_EXTRACT_REGEX = r"([0-9]{1,2}\.[0-9]{1,3})\.[0-9]{1,4}"  # extracts the minecraft version from the provided neoforge version
@@ -86,7 +86,7 @@ def checkGameVersions(file_path:str): #gets all basic versions from a log file, 
     FORGE_LOADER_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.forgeVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
     FORGE_MC_VERSION_EXTRACT_REGEX = r".*\[main\/INFO\].*: ModLauncher running.* --fml.mcVersion, ([0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2})"
 
-    file = open(file_path, "r", errors='ignore')
+    file = open(filePath, "r", errors='ignore')
 
     loader = ""
     loaderVer = ""
