@@ -5,6 +5,7 @@ import basicInfoGatherer
 import time
 
 import extraInfoGatherer
+import modListExtractor
 
 LOG_EXTENSION_REGEX = r".*\.log|.*\.txt"
 
@@ -33,6 +34,7 @@ else:
         basicData = basicInfoGatherer.crashReportBasicInfoGatherer(file_path)
         improvedCrashReportData = extraInfoGatherer.checkImprovedCrashReports(file_path)
         isSinytraPresent = extraInfoGatherer.checkSinytraConnectorPresence(file_path)
+        modList = modListExtractor.neoforgeModListExtractor(file_path,True)
 
 
         print("Gathered basic data:")
@@ -41,19 +43,19 @@ else:
         print("Minecraft Version: " + str(basicData['minecraftVersion']))
         print("Is Crash Report: " + str(basicData['isCrashReport']))
 
-        time.sleep(1)
 
         if isSinytraPresent:
+            time.sleep(1)
             print("\nWARNING:")
             print("Sinytra Connector has been detected. It is known to have common issues.\nPlease verify that Sinytra Connector and related Fabric mods are not causing the problem")
 
-        time.sleep(2)
-
-        print("")
-        print("------------------------------------------------------------------")
-        print("")
 
         if improvedCrashReportData['isImproved']:
+            time.sleep(2)
+
+            print("")
+            print("------------------------------------------------------------------")
+            print("")
             print("Improved Crash Reports found")
             print("The following is data from Improved Crash Reports")
             print("")
